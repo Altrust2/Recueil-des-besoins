@@ -24,3 +24,109 @@ footer div{
     height: 50px;
     width: 50px;
 }
+
+//partie de Léo le GOAT
+
+#logo_jo{
+    height: 50px;
+    width: 50px;
+}
+figure img{
+    width: 400px;
+    height: auto;
+    border-radius: 0.5em;
+}
+figure{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    background-color: #273D59;
+    color: #F2EFDF;
+    width: 32%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 5px;
+}
+#Actualite{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+#Presentationjeu{
+    background-color: #273D59;
+    color: #F2EFDF;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 5px;
+    justify-content: center;
+    border-color: black;
+}
+#tableaumed{
+    color: #273D59;
+    padding: 1%;
+    border-radius: 0.5em;
+    margin: 5px;
+    justify-content: center;
+    border-color: black;
+    width: 73%;
+    text-align: center;
+}
+#chiffresimp{
+    background-color: #80A7BF;
+    color: #F2EFDF;
+    padding: 1%;
+    border-radius: 0.5em;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size:xx-large;
+    border-color: black;
+    width: 22%;
+}
+#chiffresimp div{
+    background-color: #273D59;
+
+}
+#chiffresimp h2{
+    font-size:x-large;
+    padding-bottom: 100px;
+}
+
+ body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #80A7BF;
+ }
+ #tableaumed table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tableaumed th, #tableaumed td {
+    background-color: #F2EFDF; /* Set background color to white */
+    color: #273D59; /* Set text color to black for better readability */
+    padding: 8px;
+    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: large;
+}
+#tableaumed td:nth-child(3),
+#tableaumed td:nth-child(4),
+#tableaumed td:nth-child(5) {
+    background-color: #273D59;
+    color: #F2EFDF; /* Optional: Change text color for better readability */
+}
+
+#tableaumed th {
+    background-color: #80A7BF; /* Keep header background color as is */
+    color: #F2EFDF; /* Keep header text color as is */
+}
+table img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
