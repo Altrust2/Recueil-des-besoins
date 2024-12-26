@@ -1,25 +1,3 @@
-footer{
-    border-radius: 30px;
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-around;
-    
-
-}
-
-footer div h2{
-    vertical-align: middle;
-}
-footer div{
-    display: flex;
-    background-color: #273D59;
-    border-radius: 30px;
-    width: 200px;
-    height: 50px;
-    justify-content: center;
-    color: white;
-    margin:5px;
-}
 #logo_jo{
     height: 50px;
     width: 50px;
@@ -319,4 +297,28 @@ footer div{
 /* Lorsque le texte est survolé, l'image apparaît */
 .cache:hover::after {
     opacity: 1;
+}
+
+
+/* Nouveau Footer */
+footer {
+    background-color: #F2EFDF;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+footer div {
+    display: flex;
+    background-color: #273D59;
+    border-radius: 30px;
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    color: #D9D9D9;
+    margin: 5px;
 }
