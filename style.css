@@ -280,16 +280,176 @@ table img {
 
 
 /* Nouveau Footer */
+
+
+/* Page sportif Titouan*/
+body{
+    background-color: #80A7BF;
+}
+main{
+    margin: 30px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    margin: 20px 15em;
+    padding: 1em 0em;
+    color: #F2EFDF;
+}
+
+a{
+    color:red;
+}
+
+#bloc{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 400px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+#bloc img{
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#infos_essentielles {
+    background-color: #273D59;
+    border-radius: 40px;
+    width: 400px;
+    color: #F2EFDF;
+}
+
+/* Tableau des médailles*/
+#tablo {
+    border-spacing: 0.5em;
+    color: #273D59;
+    margin: 5em auto;
+    width: 80%;
+}
+#tablo tr {
+    background-color: #F2EFDF;
+}
+#tablo th, #tablo td {
+    text-align: center;
+    padding: 0.5em;
+}
+#type_comp{
+    background-color: #273D59;
+    color: #D9D9D9;
+}
+#médailles_or{
+    background-color: #FCDB8C;
+}
+#médailles_argent{
+    background-color: #C0C0C0;
+}
+#médailles_bronze{
+    background-color: #8B4513;
+    color: #F2EFDF;
+}
+
+.Moments{
+    background-color: #273D59;
+    color: #F2EFDF;
+    border-radius: 30px;
+    padding: 20px;
+    margin:15px;
+    margin-bottom: 30px;
+}
+
+.Moments div{
+    display: flex;
+    flex-direction: row;
+}
+
+.Moments div img{
+    width: auto;
+    height: 10em  ;
+    margin :1em;
+    justify-content: center;
+}
+
+
+/* Récapitulatif des participations de Teddy Riner aux différents jeux */
+.JeuxD, .JeuxG{
+    border-radius: 40px;
+    background-color: #f2911B;
+    margin: 30px 20px;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.JeuxD div, .JeuxG div{
+    border-radius: 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;  
+    padding:1em;     
+}
+.JeuxD img, .JeuxG img{
+    width: 25em;
+    height: auto;
+    border-radius: 30px;
+    justify-items: center;
+    align-self: center;
+    margin: 1em;
+}
+
+.JeuxD{
+    margin-right: 7em;
+}
+.JeuxG{
+    margin-left: 7em;
+}
+
+
+/* Médailles obtenues par teddy Riner pendant Paris 2024 */
+#conteneur_médailles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+}
+.médailles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    margin: 15px;
+    padding: 10px;
+    background-color: #F2EFDF;
+    border-radius: 30px;
+    width: 45em;
+    height: auto;
+}
+.médailles img {
+    width: 17em;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+/* Footer */
 footer {
     background-color: #F2EFDF;
     display: flex;
     justify-content: space-around;
-    width: 100%; 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
+    width: 100%; /* Largeur à 100% */
+    box-sizing: border-box;
+    bottom: 0;
 }
-
 footer div {
     display: flex;
     background-color: #273D59;
@@ -301,3 +461,4 @@ footer div {
     color: #D9D9D9;
     margin: 5px;
 }
+
