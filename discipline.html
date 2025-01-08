@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
 	<head>
+
 		<link rel="stylesheet" type="text/css" href="style.css" > 
 		<meta charset="UTF-8">
+
 		<title>Discipline</title>
+
 		<meta name="description" content="Page de présentation de la discipline de judo aux Jeux Olympiques" >
 		<meta name="keywords" content="judo, discipline, jeux, olympique, jo, paris, 2024" >
+
 		<style>
 			#image {
 				display: none;
 				margin-top: 20px;
 			}
 		</style>
+
 	</head>
 
     <body>
-
-		       <header>
+		<header>
             <div>   
                 <button>
                     <img src="images/accueil_icone.png" alt="Icone accueil" title="Icone accueil">Accueil</img>
@@ -55,37 +61,43 @@
 		<main>
 			<h3>L’épreuve de judo est apparue aux JO en 1964 et est au programme depuis 1972 pour les hommes et 1992 pour les femmes.</h3>
 			
-			
-			<article id="presentation">
+			<section id="explications">
+				<article id="presentation">
+					<ul>
+						<li>
+							<h2>Présentation et histoire de la discipline </h2>
+							<p>Le judo est un art martial, dérivé du jujitsu, créé au Japon par le <span id="cache">Dr. Jigoro Kano</span>
+								<img id="image" src="icones/unnamed.jpg" alt="Image">
+								lorsqu’il ouvre son premier dojo en 1882. Judo signifie en japonais « voie de la souplesse », mais ce sport de lutte traditionnel ne se limite pas à cela, et demande un investissement physique considérable. Jigoro Kano allie aux principes philosophiques du judo une rigueur physique, morale et intellectuelle, tout en retirant de son art les aspects jugés dangereux du jujitsu. Le judo s’exporte en Europe et notamment en France vers la moitié du 20e siècle, et devient le premier art martial à se démocratiser hors des frontières japonaises. Ce sport a fait son apparition au Jeux Olympiques de Tokyo en 1964, et ne quittera plus le programme olympique à compter des Jeux de Munich en 1972, et le judo féminin à partir des Jeux de Barcelone en 1992. L’art martial est globalement dominé par le Japon, qui a remporté 96 médailles, suivi par la France (57 médailles) et la Corée du Sud (46 médailles) qui s’illustrent également à chaque édition des Jeux. Depuis son arrivée aux Jeux Olympiques, le judo s’est largement développé à travers le monde, puisque 128 pays participaient en 2021 aux compétitions olympiques à Tokyo.</p>
+							
+							<script>
+								
+								document.getElementById('cache').addEventListener('click', function() {
+									
+									var image = document.getElementById('image');
+									if (image.style.display === 'none') {
+										image.style.display = 'block'; 
+									} else {
+										image.style.display = 'none'; 
+									}
+								});
+								
+							</script>
+						</li>
+					</ul>
 
-				<h2>Présentation et histoire de la discipline </h2>
-				<p>Le judo est un art martial, dérivé du jujitsu, créé au Japon par le <span id="cache">Dr. Jigoro Kano</span>
-					<img id="image" src="icones/unnamed.jpg" alt="Image">
-					 lorsqu’il ouvre son premier dojo en 1882. Judo signifie en japonais « voie de la souplesse », mais ce sport de lutte traditionnel ne se limite pas à cela, et demande un investissement physique considérable. Jigoro Kano allie aux principes philosophiques du judo une rigueur physique, morale et intellectuelle, tout en retirant de son art les aspects jugés dangereux du jujitsu. Le judo s’exporte en Europe et notamment en France vers la moitié du 20e siècle, et devient le premier art martial à se démocratiser hors des frontières japonaises. Ce sport a fait son apparition au Jeux Olympiques de Tokyo en 1964, et ne quittera plus le programme olympique à compter des Jeux de Munich en 1972, et le judo féminin à partir des Jeux de Barcelone en 1992. L’art martial est globalement dominé par le Japon, qui a remporté 96 médailles, suivi par la France (57 médailles) et la Corée du Sud (46 médailles) qui s’illustrent également à chaque édition des Jeux. Depuis son arrivée aux Jeux Olympiques, le judo s’est largement développé à travers le monde, puisque 128 pays participaient en 2021 aux compétitions olympiques à Tokyo.</p>
+				</article>
 				
-				<script>
-					
-					document.getElementById('cache').addEventListener('click', function() {
-						
-						var image = document.getElementById('image');
-						if (image.style.display === 'none') {
-							image.style.display = 'block'; 
-						} else {
-							image.style.display = 'none'; 
-						}
-					});
-					
-				</script>
-			</article>
+				<article id="resume">
+	
+					<h2>Résumé et règles</h2>
+	
+					<p>L’objectif est de projeter son adversaire au sol, de l’immobiliser ou de l’obliger à abandonner en utilisant des clés articulaires et des étranglements. Il existe deux principaux types d’avantages dans le judo moderne. Le Ippon consiste en un impact significatif sur le dos avec force, vitesse et contrôle, ou un abandon (causé par un étranglement ou une clef de bras), ou encore une immobilisation au sol de 20 secondes. Le Ippon donne immédiatement la victoire à celui qui l’inflige à son adversaire. Le waza-ari, lui, fait suite à un impact pour lequel il manque l’un des trois critères du Ippon, ou une immobilisation inférieure à 20 secondes (mais supérieure à dix secondes). Deux waza-ari équivalent à un Ippon et donnent la victoire à celui qui les exécute.</p>
+					<p>Le judo est divisé en catégories de poids pour les femmes et les hommes, avec des combats de quatre minutes, donnant lieu à une prolongation si le score est à égalité. Le judo prônant un enseignement de valeurs morales, des pénalités peuvent être données aux combattants trop passifs ou adoptant un comportement « contraire à l’esprit du judo ».</p>
+				
+				</article>
+			</section>
 			
-			<article id="resume">
-
-				<h2>Résumé et règles</h2>
-
-				<p>L’objectif est de projeter son adversaire au sol, de l’immobiliser ou de l’obliger à abandonner en utilisant des clés articulaires et des étranglements. Il existe deux principaux types d’avantages dans le judo moderne. Le Ippon consiste en un impact significatif sur le dos avec force, vitesse et contrôle, ou un abandon (causé par un étranglement ou une clef de bras), ou encore une immobilisation au sol de 20 secondes. Le Ippon donne immédiatement la victoire à celui qui l’inflige à son adversaire. Le waza-ari, lui, fait suite à un impact pour lequel il manque l’un des trois critères du Ippon, ou une immobilisation inférieure à 20 secondes (mais supérieure à dix secondes). Deux waza-ari équivalent à un Ippon et donnent la victoire à celui qui les exécute.</p>
-				<p>Le judo est divisé en catégories de poids pour les femmes et les hommes, avec des combats de quatre minutes, donnant lieu à une prolongation si le score est à égalité. Le judo prônant un enseignement de valeurs morales, des pénalités peuvent être données aux combattants trop passifs ou adoptant un comportement « contraire à l’esprit du judo ».</p>
-			
-			</article>
 			
 			<article id="epreuves">
 
@@ -139,241 +151,248 @@
 			<article id="selection">
 				<h2>Sélection de sportifs médaillés</h2>
 
-				<div>
+				<section>
+					<div>
+						<img src="icones/tsunoda.png" title="TSUNODA Natsumi" alt="Photo de TSUNODA Natsumi" width="127" height="150">
+	
+						<p>TSUNODA Natsumi<br>
+							Japonaise<br>
+							Date de Naissance : 06 août 1992<br>
+							Âge : 32 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-48 kg - femmes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>Argent</td>
+							</tr>
+	
+						</table>
+					</div>
+	
+					<div>
+	
+						<img src="icones/abe.png" title="ABE Hifumi" alt="Photo de ABE Hifumi" width="127" height="150">
+	
+						<p>ABE Hifumi<br>
+							Japonais<br>
+							Date de Naissance : 09 août 1997<br>
+							Âge : 27 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-66 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>Argent</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+				</section>
 
-					<img src="icones/tsunoda.png" title="TSUNODA Natsumi" alt="Photo de TSUNODA Natsumi" width="127" height="150">
+				<section>
+					<div>
 
-					<p>TSUNODA Natsumi<br>
-						Japonaise<br>
-						Date de Naissance : 06 août 1992<br>
-						Âge : 32 ans
-					</p>
+						<img src="icones/heydarov.png" title="HEYDAROV Hidayat" alt="Photo de HEYDAROV Hidayat" width="127" height="150">
+	
+						<p>HEYDAROV Hidayat<br>
+							Azerbaïdjanais<br>
+							Date de Naissance : 27 juil. 1997<br>
+							Âge : 27 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-73 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+	
+					<div>
+	
+						<img src="icones/souza.png" title="SOUZA Beatriz" alt="Photo de SOUZA Beatriz" width="127" height="150">
+	
+						<p>SOUZA Beatriz<br>
+							Brésilienne<br>
+							Date de Naissance : 20 mai 1998<br>
+							Âge : 25 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>+78 kg - femmes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>Argent</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+				</section>
 
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-48 kg - femmes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>Argent</td>
-						</tr>
-
-					</table>
-				</div>
-
-				<div>
-
-					<img src="icones/abe.png" title="ABE Hifumi" alt="Photo de ABE Hifumi" width="127" height="150">
-
-					<p>ABE Hifumi<br>
-						Japonais<br>
-						Date de Naissance : 09 août 1997<br>
-						Âge : 27 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-66 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>Argent</td>
-						</tr>
-
-					</table>
-
-				</div>
+				<section>
+					<div>
+						<img src="icones/nagase.png" title="NAGASE Takanori" alt="Photo de NAGASE Takanori" width="127" height="150">
+	
+						<p>NAGASE Takanori<br>
+							Japonais<br>
+							Date de Naissance : 14 oct. 1993<br>
+							Âge : 31 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-81 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>Argent</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+	
+					<div>
+	
+						<img src="icones/bekauri.png" title="BEKAURI Lasha" alt="Photo de BEKAURI Lasha" width="127" height="150">
+	
+						<p>BEKAURI Lasha<br>
+							Géorgien<br>
+							Date de Naissance : 26 juil. 2000<br>
+							Âge : 24 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-90 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>9ème ex aequo (CHANGER LE AE)</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+				</section>
 				
-				<div>
+				<section>
+					<div>
 
-					<img src="icones/heydarov.png" title="HEYDAROV Hidayat" alt="Photo de HEYDAROV Hidayat" width="127" height="150">
-
-					<p>HEYDAROV Hidayat<br>
-						Azerbaïdjanais<br>
-						Date de Naissance : 27 juil. 1997<br>
-						Âge : 27 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-73 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-					</table>
-
-				</div>
-
-				<div>
-
-					<img src="icones/souza.png" title="SOUZA Beatriz" alt="Photo de SOUZA Beatriz" width="127" height="150">
-
-					<p>SOUZA Beatriz<br>
-						Brésilienne<br>
-						Date de Naissance : 20 mai 1998<br>
-						Âge : 25 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>+78 kg - femmes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>Argent</td>
-						</tr>
-
-					</table>
-
-				</div>
-
-				<div>
-					<img src="icones/nagase.png" title="NAGASE Takanori" alt="Photo de NAGASE Takanori" width="127" height="150">
-
-					<p>NAGASE Takanori<br>
-						Japonais<br>
-						Date de Naissance : 14 oct. 1993<br>
-						Âge : 31 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-81 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>Argent</td>
-						</tr>
-
-					</table>
-
-				</div>
-
-				<div>
-
-					<img src="icones/bekauri.png" title="BEKAURI Lasha" alt="Photo de BEKAURI Lasha" width="127" height="150">
-
-					<p>BEKAURI Lasha<br>
-						Géorgien<br>
-						Date de Naissance : 26 juil. 2000<br>
-						Âge : 24 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-90 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>9ème ex aequo (CHANGER LE AE)</td>
-						</tr>
-
-					</table>
-
-				</div>
-				
-				<div>
-
-					<img src="icones/kotsoiev.png" title="KOTSOIEV Zelim" alt="Photo de KOTSOIEV Zelim" width="127" height="150">
-
-					<p>KOTSOIEV Zelim<br>
-						Azerbaïdjanais<br>
-						Date de Naissance : 09 août 1998<br>
-						Âge : 26 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>-100 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-					</table>
-
-				</div>
-				
-				<div>
-
-					<img src="icones/riner.png" title="RINER Teddy" alt="Photo de RINER Teddy" width="127" height="150">
-
-					<p>RINER Teddy<br>
-						Français<br>
-						Date de Naissance : 07 avr. 1989<br>
-						Âge : 35 ans
-					</p>
-
-					<table>
-
-						<tr>
-							<th>Catégorie</th>
-							<th>Médaille</th>
-						</tr>
-
-						<tr>
-							<td>+100 kg - hommes</td>
-							<td>Or</td>
-						</tr>
-
-						<tr>
-							<td>Épreuve par équipes mixtes</td>
-							<td>Or</td>
-						</tr>
-
-					</table>
-
-				</div>
+						<img src="icones/kotsoiev.png" title="KOTSOIEV Zelim" alt="Photo de KOTSOIEV Zelim" width="127" height="150">
+	
+						<p>KOTSOIEV Zelim<br>
+							Azerbaïdjanais<br>
+							Date de Naissance : 09 août 1998<br>
+							Âge : 26 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>-100 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+					
+					<div>
+	
+						<img src="icones/riner.png" title="RINER Teddy" alt="Photo de RINER Teddy" width="127" height="150">
+	
+						<p>RINER Teddy<br>
+							Français<br>
+							Date de Naissance : 07 avr. 1989<br>
+							Âge : 35 ans
+						</p>
+	
+						<table>
+	
+							<tr>
+								<th>Catégorie</th>
+								<th>Médaille</th>
+							</tr>
+	
+							<tr>
+								<td>+100 kg - hommes</td>
+								<td>Or</td>
+							</tr>
+	
+							<tr>
+								<td>Épreuve par équipes mixtes</td>
+								<td>Or</td>
+							</tr>
+	
+						</table>
+	
+					</div>
+				</section>
 				
 			</article>
 
@@ -624,11 +643,13 @@
 			</article>
 		</main>
 
-	<footer>
-            <button >Mentions légales</button>
-            
-            <img src="images/Logo_jo.png" alt="Logo JO 2024" title="Logo JO 2024" id="logo_jo"></img>
-            
-            <button >À propos</button>
-    
-        </footer>
+		<footer>
+
+	            <button >Mentions légales</button>
+	            
+	            <img src="images/Logo_jo.png" alt="Logo JO 2024" title="Logo JO 2024" id="logo_jo"></img>
+	            
+	            <button >À propos</button>
+	    
+	        </footer>
+	</body>
