@@ -166,190 +166,348 @@ table img {
 /***************
  * CODE AMELIE *
  ***************/
-body{
-    background-color: #80A7BF;
+@media screen and (min-width: 620px) {
+    body{
+        background-color: #80A7BF;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    main{
+        background-color: #80A7BF;
+        padding: 3em;
+    }
+
+    main ul img{
+        list-style: disc inside url(icones/phryge-judo.avif);
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    main article, h3, td, div, th{
+        padding: 1em;
+        font-size: 20px;
+    }
+
+    h3{
+        background-color: #F2EFDF;
+    }
+
+    #presentation h3, #presentation, #selection table, header li{
+        background-color: #273D59;
+        color: white;
+    }
+
+    h3, #presentation{
+        width: 50%;
+    }
+
+    #resume{
+        width: 44%;
+    }
+
+    #explications{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 50%;
+    }
+
+    #presentation{
+        border-radius: 30px;
+    }
+
+    #resume{
+        background-color: #F2911B;
+    }
+
+    /* EPREUVES */
+    #epreuves table{
+        width: 100%;
+    }
+
+    #epreuves div{
+        float: right;
+    }
+
+    #epreuves table tr td{
+        background-color: #F2911B;
+        border: 10px solid #80A7BF;
+        width: 40%;
+        height: 40px;
+    }
+
+    #epreuves table tr{
+        margin: 10px;
+    }
+
+    /* SELECTION */
+    #selection section{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    #selection div{
+        background-color: #d9d9d9;
+        width: 47%;
+    }
+
+    #selection div img{
+        float: left;
+    }
+
+    #selection table{
+        width: 100%;
+        text-align: center;
+        height: 10em;
+    }
+
+    /* TABLEAU */
+    #tableau{
+        background-color: #80A7BF;
+        color: #273D59;
+        padding: 1%;
+        border-radius: 0.5em;
+        margin: 5px;
+        justify-content: center;
+        border-color: black;
+        width: 73%;
+        text-align: center;
+    }
+    
+    #tableau table {
+        width: 135%;
+        border-collapse: collapse;
+    }
+    
+    #tableau td {
+        background-color: #F2EFDF;
+        color: #273D59;
+        padding: 8px;
+        border: 10px solid #80A7BF;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: large;
+    }
+
+    #tableau td:nth-child(3),
+    #tableau td:nth-child(4),
+    #tableau td:nth-child(5) {
+        background-color: #273D59;
+        color: #F2EFDF;
+    }
+    
+    #tableau th {
+        background-color: #80A7BF;
+        color: #F2EFDF;
+    }
+
+    #tableau table tbody tr:nth-child(1) td:nth-child(1){
+        background-color: #FCD88C;
+    }
+
+    #tableau table tbody tr:nth-child(2) td:nth-child(1){
+        background-color: #c0c0c0;
+    }
+
+    #tableau table tbody tr:nth-child(3) td:nth-child(1){
+        background-color: #8b4513;
+    }
+
+    #tableau h2{
+        text-align: left;
+        color: black;
+    }
 }
 
-h1{
-    text-align: center;
-}
+@media screen and (min-width: 480px) and (max-width: 620px){
+    body{
+        background-color: #80A7BF;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    main{
+        background-color: #80A7BF;
 
-main{
-    background-color: #80A7BF;
-    padding: 3em;
-}
+    }
+    
+    main ul{
+        list-style: none;
+    }
+    
+    main article, h3, td, div, th{
+        padding: 1em;
+        font-size: 20px;
+    }
+    
+    h3{
+        background-color: #F2EFDF;
+    }
+    
+    #presentation h3, #presentation, #selection table, header li{
+        background-color: #273D59;
+        color: white;
+    }
+    
+    h3, #presentation, #resume{
+        width: 90%;
+    }
+    
+    #presentation{
+        border-radius: 30px;
+    }
+    
+    #resume{
+        background-color: #F2911B;
+    }
+    
+    /* EPREUVES */
+    #epreuves table{
+        width: 100%;
+    }
+    
+    #epreuves div{
+        float: right;
+    }
+    
+    #epreuves table tr td{
+        background-color: #F2911B;
+        border: 10px solid #80A7BF;
+        width: 40%;
+        height: 40px;
+    }
+    
+    #epreuves table tr{
+        margin: 10px;
+    }
 
-main ul img{
-    list-style: disc inside url(icones/phryge-judo.avif);
-    background-color: black;
-    border-radius: 50%;
-}
+    #epreuves table tr td{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 90%;
+    }
 
-main article, h3, td, div, th{
-    padding: 1em;
-    font-size: 20px;
-}
+    #epreuves table tr td::nth-word(3){
+        display:none;
+    }
+    
+    /* SELECTION */
+    #selection div{
+        background-color: #d9d9d9;
+        width: 90%;
+    }
+    
+    #selection div img{
+        float: left;
+    }
+    
+    #selection table{
+        width: 100%;
+        text-align: center;
+        height: 10em;
+    }
+    
+    /* TABLEAU */
+    #tableau{
+        background-color: #80A7BF;
+        color: #273D59;
+        padding: 1%;
+        border-radius: 0.5em;
+        margin: 5px;
+        justify-content: center;
+        border-color: black;
+        width: 73%;
+        text-align: center;
+    }
+       
+    #tableau table {
+        width: 135%;
+        border-collapse: collapse;
+    }
+       
+    #tableau td {
+        background-color: #F2EFDF;
+        color: #273D59;
+        padding: 8px;
+        border: 10px solid #80A7BF;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: large;
+    }
+    
+    #tableau td:nth-child(1) {
+        display: none;
+    }
 
-h3{
-    background-color: #F2EFDF;
-}
+    #tableau td:nth-child(3),
+    #tableau td:nth-child(4),
+    #tableau td:nth-child(5) {
+        background-color: #273D59;
+        color: #F2EFDF;
+    }
+       
+    #tableau th {
+        background-color: #80A7BF;
+        color: #F2EFDF;
+    }
+    
+    #tableau table tbody tr:nth-child(1) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(3){
+        background-color: #F2911B;
+    }
+    
+    #tableau table tbody tr:nth-child(2) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+        background-color: #c0c0c0;
+    }
+    
+    #tableau table tbody tr:nth-child(3) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(5){
+        background-color: #8B4513;
+    }
 
-#presentation h3, #presentation, #selection table, header li{
-    background-color: #273D59;
-    color: white;
-}
+    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+        color: black;
+    }
 
-h3, #presentation{
-    width: 50%;
-}
-
-#resume{
-    width: 40%;
-}
-
-#explications{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    height: 50%;
-}
-
-#presentation{
-    border-radius: 30px;
-}
-
-#resume{
-    background-color: #F2911B;
-}
-
-/* EPREUVES */
-#epreuves table{
-    width: 100%;
-}
-
-#epreuves div{
-    float: right;
-}
-
-#epreuves table tr td{
-    background-color: #F2911B;
-    border: 10px solid #80A7BF;
-    width: 40%;
-    height: 40px;
-}
-
-#epreuves table tr{
-    margin: 10px;
-}
-
-/* SELECTION */
-#selection section{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-#selection div{
-    background-color: #d9d9d9;
-    width: 46%; 
-}
-
-#selection div img{
-    float: left;
-}
-
-#selection table{
-    width: 100%;
-    text-align: center;
-}
-
-/* TABLEAU */
-#tableau{
-    background-color: #80A7BF;
-    color: #273D59;
-    padding: 1%;
-    border-radius: 0.5em;
-    margin: 5px;
-    justify-content: center;
-    border-color: black;
-    width: 73%;
-    text-align: center;
-}
-   
-#tableau table {
-    width: 135%;
-    border-collapse: collapse;
-}
-   
-#tableau td {
-    background-color: #F2EFDF;
-    color: #273D59;
-    padding: 8px;
-    border: 10px solid #80A7BF;
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: large;
-
-}
-
-#tableau td:nth-child(3),
-#tableau td:nth-child(4),
-#tableau td:nth-child(5) {
-    background-color: #273D59;
-    color: #F2EFDF;
-}
-   
-#tableau th {
-    background-color: #80A7BF;
-    color: #F2EFDF;
-}
-
-#tableau table tbody tr:nth-child(1) td:nth-child(1){
-    background-color: #FCD88C;
-}
-
-#tableau table tbody tr:nth-child(2) td:nth-child(1){
-    background-color: #c0c0c0;
-}
-
-#tableau table tbody tr:nth-child(3) td:nth-child(1){
-    background-color: #8b4513;
-}
-
-#tableau h2{
-    text-align: left;
-    color: black;
+    #tableau table tbody tr:nth-child(11),
+    #tableau table tbody tr:nth-child(12),
+    #tableau table tbody tr:nth-child(13),
+    #tableau table tbody tr:nth-child(14),
+    #tableau table tbody tr:nth-child(15),
+    #tableau table tbody tr:nth-child(16),
+    #tableau table tbody tr:nth-child(17),
+    #tableau table tbody tr:nth-child(18),
+    #tableau table tbody tr:nth-child(19),
+    #tableau table tbody tr:nth-child(20),
+    #tableau table tbody tr:nth-child(21),
+    #tableau table tbody tr:nth-child(22),
+    #tableau table tbody tr:nth-child(23),
+    #tableau table tbody tr:nth-child(24),
+    #tableau table tbody tr:nth-child(25),
+    #tableau table tbody tr:nth-child(26){
+        display: none;
+    }
+    
+    #tableau h2{
+        text-align: center;
+        color: black;
+    }
 }
 
 /*******************
  * FIN CODE AMELIE *
  *******************/
-
-/* Style initial pour le texte */
-.hover-image {
-    position: relative;
-    display: inline-block;
-}
-
-/* Style de l'image cachée */
-.cache::after {
-    background-image: url('icones/unnamed.jpg');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 394px;
-    height: 486px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* Lorsque le texte est survolé, l'image apparaît */
-.cache:hover::after {
-    opacity: 1;
-}
 
 /* Nouveau Footer */
 
