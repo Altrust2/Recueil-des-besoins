@@ -494,20 +494,29 @@ table img {
  * FIN CODE AMELIE *
  *******************/
 
-/* Nouveau Footer */
 
+/***********************/
+/* Page sportif Titouan*/
+/***********************/
 /* Page sportif Titouan*/
 body{
     background-color: #80A7BF;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+
 }
-main{
-    margin: 30px;
+#sportif{
+    padding: 30px;
+    display: block;
 }
 
-h1,h2,h3{
+#sportif h1 ,#sportif h2,#sportif h3{
     text-align: center;
 }
-h1{
+#sportif h1{
     border-style: solid;
     border-color: black;
     border-radius: 30px;
@@ -516,11 +525,11 @@ h1{
     color: #F2EFDF;
 }
 
-a{
+#sportif a{
     color:red;
 }
 
-#bloc{
+#sportif #bloc{
     display: flex;
     flex-direction: column;
     float: left;
@@ -529,48 +538,53 @@ a{
     margin-bottom: 15px;
 }
 
-#bloc img{
+#sportif #bloc img{
     margin-bottom: 20px;
     border-radius: 30px;
 }
 
-#infos_essentielles {
+#sportif #infos_essentielles {
     background-color: #273D59;
     border-radius: 40px;
     width: 400px;
     color: #F2EFDF;
 }
 
+#sportif #logo_jo{
+    height: 70px;
+    width: 70px;
+}
+
 /* Tableau des médailles*/
-#tablo {
+#sportif #tablo {
     border-spacing: 0.5em;
     color: #273D59;
     margin: 5em auto;
     width: 80%;
 }
-#tablo tr {
+#sportif #tablo tr {
     background-color: #F2EFDF;
 }
-#tablo th, #tablo td {
+#sportif #tablo th, #sportif #tablo td {
     text-align: center;
     padding: 0.5em;
 }
-#type_comp{
+#sportif #type_comp{
     background-color: #273D59;
     color: #D9D9D9;
 }
-#médailles_or{
+#sportif #médailles_or{
     background-color: #FCDB8C;
 }
-#médailles_argent{
+#sportif #médailles_argent{
     background-color: #C0C0C0;
 }
-#médailles_bronze{
+#sportif #médailles_bronze{
     background-color: #8B4513;
     color: #F2EFDF;
 }
 
-.Moments{
+#sportif .Moments{
     background-color: #273D59;
     color: #F2EFDF;
     border-radius: 30px;
@@ -579,12 +593,12 @@ a{
     margin-bottom: 30px;
 }
 
-.Moments div{
+#sportif .Moments div{
     display: flex;
     flex-direction: row;
 }
 
-.Moments div img{
+#sportif .Moments div img{
     width: auto;
     height: 10em  ;
     margin :1em;
@@ -593,7 +607,7 @@ a{
 
 
 /* Récapitulatif des participations de Teddy Riner aux différents jeux */
-.JeuxD, .JeuxG{
+#sportif .JeuxD,#sportif .JeuxG{
     border-radius: 40px;
     background-color: #f2911B;
     margin: 30px 20px;
@@ -602,7 +616,7 @@ a{
     flex-direction: row;
 
 }
-.JeuxD div, .JeuxG div{
+#sportif .JeuxD div,#sportif .JeuxG div{
     border-radius: 40px;
     padding: 5px;
     display: flex;
@@ -612,7 +626,7 @@ a{
     text-align: center;  
     padding:1em;     
 }
-.JeuxD img, .JeuxG img{
+#sportif .JeuxD img,n.JeuxG img{
     width: 25em;
     height: auto;
     border-radius: 30px;
@@ -621,22 +635,22 @@ a{
     margin: 1em;
 }
 
-.JeuxD{
+#sportif  .JeuxD{
     margin-right: 7em;
 }
-.JeuxG{
+#sportif  .JeuxG{
     margin-left: 7em;
 }
 
 
 /* Médailles obtenues par teddy Riner pendant Paris 2024 */
-#conteneur_médailles{
+#sportif  #conteneur_médailles{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10em;
 }
-.médailles {
+#sportif  .médailles {
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -648,93 +662,266 @@ a{
     width: 45em;
     height: auto;
 }
-.médailles img {
+#sportif  .médailles img {
     width: 17em;
     height: auto;
     border-radius: 30px;
 }
 
 
+
+
+    
+
+
 /* Footer */
 footer {
     background-color: #F2EFDF;
     display: flex;
-    justify-content: space-around;
-    width: 100%; /* Largeur à 100% */
-    box-sizing: border-box;
-    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+
 }
 footer button {
     display: flex;
     background-color: #273D59;
-    border-radius: 30px;
-    width: 30%;
-    height: 50px;
+    border-radius: 20px;
+    width: 578px;
+    height: 70px;
     justify-content: center;
     align-items: center; 
     color: #D9D9D9;
     margin: 5px;
 }
-
-/*partie de léo*/
-header{
-    background-color: #F2EFDF;
-    height: 16em;
-    width: 1440px;
+footer img{
+    width: 65px;
+    height: 72px;
 }
 
-header div{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
+@media (max-width: 480px) {
+    #body{ 
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}
+    
+    header{
+        background-color: #F2EFDF;
+        height: 130px;
+        width: 480px;
+    }
+    
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 3em;
+    }
+    
+    header div section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:2em;
+    }
+    #boutons_gauche{
+        width: 33%;
+        padding:5px;
+    }
+    #boutons_droite{
+        width: 66%;
+        justify-content: space-between;
+    }
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    
+    #images_container img{
+        width: auto;
+        height: 60px;
+    }
+    
+    button {
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 105px;
+        height: 40px; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+        gap:5px;
+    }
+    
+    button img {
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+    .med{display: none;}
+    #sites{display: none;}
+    
+    
+    
+    /*Corps de la page*/
 
-header div section{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
+    #sportif {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+    #sportif h1,#sportif h2,#sportif h3{
+        text-align: center;
+    }
+    #sportif h1{
+        border-style: solid;
+        border-color: black;
+        border-radius: 30px;
+        margin: 20px 2em;
+        padding: 1em 1em;
+        color: #F2EFDF;
+        text-align: center;
+    }
 
-#images_container{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding-top: 2em;
-}
+    #sportif #bloc, #sportif div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        width: 100%; 
+    }
+    
+    #sportif #bloc img {
+        width: 90%; 
+        max-width: 300px; 
+        margin-bottom: 15px; 
+    }
 
-#images_container img{
-    width: auto;
-    height: 14em;
-}
+    article{
+        margin:10px;
+        width: 380px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+    
+    #infos_essentielles {
+        width: 90%; 
+        max-width: 300px; 
+        text-align: left; 
+    }
 
-button {
-    background-color: #273D59;
-    border-radius: 30px;
-    color: #F2EFDF;
-    width: 13em;
-    height: 5em; 
-    padding: 1em;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 15px;
-    gap:5px;
-}
+    #sportif .Moments{
+        background-color: #273D59;
+        justify-items: center;
+        color: #F2EFDF;
+        border-radius: 30px;
+        padding: 15px;
+        margin:10px;
+        margin-bottom: 30px;
+        width: 380px;
+    }
+    
+    #sportif .Moments div{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
 
-button img {
-    width: auto;
-    height: 25px;
-    margin-right: 10px; 
-}
+    }
+    
+    #sportif .Moments div img{
+        width: 317px;
+        height: auto  ;
+        margin :1em;
+        justify-content: center;
+    }
+
+    #sportif #tablo {
+        justify-items: center;
+        border-spacing: 0.5em;
+        color: #273D59;
+        width: 100%;
+        max-width: 300px; 
+        margin-left: 2em;
+    }
+    #sportif #tablo th, #sportif #tablo td {
+        text-align: center;
+        padding: 0.5em;
+        font-size: 0.9em; /* Ajuste la taille du texte */
+    }
+    #sportif #tablo tr {
+        background-color: #F2EFDF;
+    }
+
+    #sportif #type_comp{
+        background-color: #273D59;
+        color: #D9D9D9;
+    }
+    #sportif #médailles_or{
+        background-color: #FCDB8C;
+    }
+    #sportif #médailles_argent{
+        background-color: #C0C0C0;
+    }
+    #sportif #médailles_bronze{
+        background-color: #8B4513;
+        color: #F2EFDF;
+    }
+
+    #sportif .JeuxD, #sportif .JeuxG{
+        border-radius: 40px;
+        background-color: #f2911B;
+        margin: 30px 20px;
+        justify-items: center;
+        align-items: center; 
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+
+    #sportif .JeuxD img, #sportif .JeuxG img {
+        display: none; 
+    }
 
 
+    #sportif .médailles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;     
+        padding: 10px;
+        background-color: #F2EFDF;
+        border-radius: 30px;
+        width: 380px;
+        height: auto;
+    }
 
-#logo_jo{
-    height: 50px;
-    width: 50px;
-}
+    #sportif #conteneur_médailles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    #sportif .médailles img { 
+        width: auto;
+        height: 200px;
+        border-radius: 30px;
+    }
+
+
+    /*************************/
+    /* FIN PAGE TITOUAN      */
+    /*************************/
+    
 body {
     display: flex;
     flex-wrap: wrap;
@@ -1417,4 +1604,259 @@ footer button {
 footer img{
     width: 65px;
     height: 72px;
+}
+
+
+
+
+
+
+
+
+
+/***************************************/
+/*Media query Titouan + FOOTER / HEADER*/
+/***************************************/
+@media (max-width: 480px) {
+    #body{ 
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}
+    
+    header{
+        background-color: #F2EFDF;
+        height: 130px;
+        width: 480px;
+    }
+    
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 3em;
+    }
+    
+    header div section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:2em;
+    }
+    #boutons_gauche{
+        width: 33%;
+        padding:5px;
+    }
+    #boutons_droite{
+        width: 66%;
+        justify-content: space-between;
+    }
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    
+    #images_container img{
+        width: auto;
+        height: 60px;
+    }
+    
+    button {
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 105px;
+        height: 40px; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+        gap:5px;
+    }
+    
+    button img {
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+    .med{display: none;}
+    #sites{display: none;}
+    
+    
+    
+    /*Corps de la page*/
+
+    #sportif {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+    #sportif h1,#sportif h2,#sportif h3{
+        text-align: center;
+    }
+    #sportif h1{
+        border-style: solid;
+        border-color: black;
+        border-radius: 30px;
+        margin: 20px 2em;
+        padding: 1em 1em;
+        color: #F2EFDF;
+        text-align: center;
+    }
+
+    #sportif #bloc, #sportif div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        width: 100%; 
+    }
+    
+    #sportif #bloc img {
+        width: 90%; 
+        max-width: 300px; 
+        margin-bottom: 15px; 
+    }
+
+    article{
+        margin:10px;
+        width: 380px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+    
+    #infos_essentielles {
+        width: 90%; 
+        max-width: 300px; 
+        text-align: left; 
+    }
+
+    #sportif .Moments{
+        background-color: #273D59;
+        justify-items: center;
+        color: #F2EFDF;
+        border-radius: 30px;
+        padding: 15px;
+        margin:10px;
+        margin-bottom: 30px;
+        width: 380px;
+    }
+    
+    #sportif .Moments div{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+
+    }
+    
+    #sportif .Moments div img{
+        width: 317px;
+        height: auto  ;
+        margin :1em;
+        justify-content: center;
+    }
+
+    #sportif #tablo {
+        justify-items: center;
+        border-spacing: 0.5em;
+        color: #273D59;
+        width: 100%;
+        max-width: 300px; 
+        margin-left: 2em;
+    }
+    #sportif #tablo th, #sportif #tablo td {
+        text-align: center;
+        padding: 0.5em;
+        font-size: 0.9em; /* Ajuste la taille du texte */
+    }
+    #sportif #tablo tr {
+        background-color: #F2EFDF;
+    }
+
+    #sportif #type_comp{
+        background-color: #273D59;
+        color: #D9D9D9;
+    }
+    #sportif #médailles_or{
+        background-color: #FCDB8C;
+    }
+    #sportif #médailles_argent{
+        background-color: #C0C0C0;
+    }
+    #sportif #médailles_bronze{
+        background-color: #8B4513;
+        color: #F2EFDF;
+    }
+
+    #sportif .JeuxD, #sportif .JeuxG{
+        border-radius: 40px;
+        background-color: #f2911B;
+        margin: 30px 20px;
+        justify-items: center;
+        align-items: center; 
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+
+    #sportif .JeuxD img, #sportif .JeuxG img {
+        display: none; 
+    }
+
+
+    #sportif .médailles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;     
+        padding: 10px;
+        background-color: #F2EFDF;
+        border-radius: 30px;
+        width: 380px;
+        height: auto;
+    }
+
+    #sportif #conteneur_médailles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    #sportif .médailles img { 
+        width: auto;
+        height: 200px;
+        border-radius: 30px;
+    }
+    
+
+
+
+    /*Footer de la page*/
+    footer {
+        background-color: #F2EFDF;
+        width: 480px; /* S'adapte à la largeur disponible */
+        height: 40px;
+        box-sizing: border-box; /* Inclut padding et bordures dans la largeur totale */
+    }
+
+    footer button {
+        height: 20px;
+        width: 100%; /* Ajuste automatiquement la hauteur */
+        padding: 2px; /* Espace interne pour garder une bonne lisibilité */
+        font-size: 1em; /* Taille de texte ajustée */
+        border-radius: 20px; /* Coins arrondis pour plus de fluidité */
+
+    }
+    #logo_jo{
+        width: 40px;
+        height: 40px;
+    }
 }
