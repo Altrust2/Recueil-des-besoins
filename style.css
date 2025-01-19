@@ -1,6 +1,7 @@
 @media screen and (min-width: 620px) {
     body{
         background-color: #80A7BF;
+        margin: 0;
     }
 
     #discipline h1{
@@ -829,7 +830,7 @@
         width: auto;
         height: 14em;
     }
-    a {
+    #accueil a {
         background-color: #273D59;
         border-radius: 30px;
         color: #F2EFDF;
@@ -842,7 +843,7 @@
         margin: 15px;
     }
     
-    a img {
+    #accueil a img {
         width: auto;
         height: 25px;
         margin-right: 10px; 
