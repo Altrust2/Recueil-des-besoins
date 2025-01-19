@@ -206,6 +206,8 @@ table img {
 
     #resume{
         width: 44%;
+        background-color: #F2911B;
+        border-radius: 1%;
     }
 
     #explications{
@@ -217,10 +219,6 @@ table img {
 
     #presentation{
         border-radius: 30px;
-    }
-
-    #resume{
-        background-color: #F2911B;
     }
 
     /* EPREUVES */
