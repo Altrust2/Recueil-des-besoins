@@ -1,6 +1,7 @@
 /**********/
 /* Header */
 /**********/
+/* Header */
 header{
     background-color: #F2EFDF;
     height: 16em;
@@ -32,12 +33,12 @@ header div section{
     width: auto;
     height: 14em;
 }
-button {
+a {
     background-color: #273D59;
     border-radius: 30px;
     color: #F2EFDF;
     width: 13em;
-    height: 5em; 
+    height: 2em; 
     padding: 1em;
     display: flex; 
     align-items: center; 
@@ -45,7 +46,7 @@ button {
     margin: 15px;
 }
 
-button img {
+a img {
     width: auto;
     height: 25px;
     margin-right: 10px; 
@@ -525,7 +526,7 @@ body{
     color: #F2EFDF;
 }
 
-#sportif a{
+#sportif .liens{
     color:red;
 }
 
@@ -670,11 +671,11 @@ body{
 
 
 
-
     
 
-
+/**********/
 /* Footer */
+/**********/
 footer {
     background-color: #F2EFDF;
     display: flex;
@@ -682,12 +683,12 @@ footer {
     width: 100%;
 
 }
-footer button {
+footer a {
     display: flex;
     background-color: #273D59;
     border-radius: 20px;
-    width: 578px;
-    height: 70px;
+    width: 30%;
+    height: 70%;
     justify-content: center;
     align-items: center; 
     color: #D9D9D9;
@@ -1664,12 +1665,12 @@ footer img{
         height: 60px;
     }
     
-    button {
+    a {
         background-color: #273D59;
         border-radius: 30px;
         color: #F2EFDF;
         width: 105px;
-        height: 40px; 
+        height: 40%; 
         padding: 1em;
         display: flex; 
         align-items: center; 
@@ -1678,7 +1679,7 @@ footer img{
         gap:5px;
     }
     
-    button img {
+    a img {
         width: auto;
         height: 25px;
         margin-right: 10px; 
@@ -1842,17 +1843,17 @@ footer img{
     /*Footer de la page*/
     footer {
         background-color: #F2EFDF;
-        width: 480px; /* S'adapte à la largeur disponible */
-        height: 40px;
-        box-sizing: border-box; /* Inclut padding et bordures dans la largeur totale */
+        width: 480px; 
+        height: 5em;
+        box-sizing: border-box; 
     }
 
-    footer button {
-        height: 20px;
-        width: 100%; /* Ajuste automatiquement la hauteur */
-        padding: 2px; /* Espace interne pour garder une bonne lisibilité */
-        font-size: 1em; /* Taille de texte ajustée */
-        border-radius: 20px; /* Coins arrondis pour plus de fluidité */
+    footer a {
+        height: 10%;
+        width: 10%; 
+        padding: 10%; 
+        font-size: 1em; 
+        border-radius: 20px; 
 
     }
     #logo_jo{
