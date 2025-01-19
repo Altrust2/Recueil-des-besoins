@@ -1096,3 +1096,359 @@ footer button {
     }
 }
 
+
+body {
+    background-color: #80A7BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+section h1 {
+    width: 1050px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+    
+section article h2{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    width: 770px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+    
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section article div {
+    background-color: #273D59;
+    border-radius: 60px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+
+section article div p {
+    color: #D9D9D9;
+    font-size: 20px;
+    margin: 20%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    text-align: justify;
+}
+
+.introduction{
+    margin-left: -235px;
+}
+
+section h2 {
+    width: 1050px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.partieDeux{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+.titrePetits{
+    width: 500px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+}
+.articles{
+    background-color: #273D59;
+    border-radius: 60px;
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+hr {
+    width: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.separation{
+    width: 5px; 
+    height: 660px; 
+    background-color: #D9D9D9; 
+    border: none; 
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: space-around;
+    gap: 30px; 
+}
+section div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+section div div article{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+section div div article div{
+    background-color: #F2911B;
+    width: auto;
+    height: 160px;
+    gap: 10px;
+    
+}
+section div div article h3{
+    background-color: #F2911B;
+    border-radius: 60px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+section div div article div p{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+section .deroulement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.versus{
+    width: 80px;
+    height: auto;
+}
+
+.vainqueur{
+    width: 200px;
+    background-color: #BDF9A9;
+    color: black;
+    text-align: center;
+
+}
+
+.vaincu{
+    width: 200px;
+    background-color: #F57D74;
+    color: black;
+    text-align: center;
+
+}
+
+section div article div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+section div article div div{
+    background-color: transparent;
+    display: flex;
+    gap: 0px;
+    
+}
+    
+    
+.compet{
+    width: auto;
+    height: auto;
+}
+figure figcaption{
+    background-color: #F2911B;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div article figure img{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.tour{
+    background-color: #273D59;
+    height: auto;
+    width: 500px;
+    color: #D9D9D9;
+}
+section div article div div p{
+    color: black;
+    
+    text-align: justify;
+}
+.separe{
+    display: flex;
+    gap: 100px;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #F2EFDF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+footer button {
+    display: flex;
+    background-color: #273D59;
+    border-radius: 30px;
+    width: 578px;
+    height: 70px;
+    justify-content: center;
+    align-items: center; 
+    color: #D9D9D9;
+    margin: 5px;
+}
+/* Petit écran (moins de 768px) */
+@media (max-width: 479px) {
+    body{
+        width: auto;
+    }
+    section h1, section h2, section article h2, .titrePetits {
+        width: 90%;
+        font-size: 1.2em;
+    }
+    section article div {
+        
+        width: 80%;
+        height: auto;
+    }
+     .articles {
+        width: 80%;
+        height: 100%;
+    }
+    .partieDeux {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    section div article div {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        gap: 0;
+    }
+    section div article div div {
+        width: 100%;
+    }
+    section div article div div p {
+        font-size: 0.8em;
+        width: 100%;
+    }
+    .vaincu, .vainqueur {
+        font-size: 0.8em;
+        width: 100%;
+    }
+    .tour {
+        width: 90%;
+    }
+   
+    .separation {
+        display: none;
+    }
+    hr{
+        width: 90%;
+        font-weight: bold;
+    }
+    .versus {
+        width: 50px;
+    }
+    img{
+        width: 200px;
+        
+    }
+    figure{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    figure figcaption p{
+        font-size: 5px;
+    }
+    div article figure img {
+        width: 50px;
+        height: 50px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 30px;
+    }
+    .deroulement .articles{
+        width: 90%;
+    }
+    section div div article{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        gap: 30px;
+    }
+    .imageMatch2, .imageMatch3{
+        display: none;
+    }
+}
