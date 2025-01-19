@@ -167,105 +167,106 @@ table img {
  * CODE AMELIE *
  ***************/
 @media screen and (min-width: 620px) {
-    body{
+    /* Amélie */
+    #discipline body{
         background-color: #80A7BF;
     }
 
-    h1{
+    #discipline h1{
         text-align: center;
     }
 
-    main{
+    #discipline{
         background-color: #80A7BF;
         padding: 3em;
     }
 
-    main ul img{
-        list-style: disc inside url(icones/phryge-judo.avif);
+    #discipline ul img{
+        list-style: disc inside url(images/phryge-judo.avif);
         background-color: black;
         border-radius: 50%;
     }
 
-    main article, h3, td, div, th{
+    #discipline article, #discipline h3, #discipline td, #discipline div, #discipline th{
         padding: 1em;
         font-size: 20px;
     }
 
-    h3{
+    #discipline h3{
         background-color: #F2EFDF;
     }
 
-    #presentation h3, #presentation, #selection table, header li{
+    #discipline #presentation h3, #discipline #presentation, #discipline #selection table, #discipline header li{
         background-color: #273D59;
         color: white;
     }
 
-    h3, #presentation{
+    #discipline h3, #discipline #presentation{
         width: 50%;
     }
 
-    #resume{
+    #discipline #resume{
         width: 44%;
         background-color: #F2911B;
         border-radius: 1%;
     }
 
-    #explications{
+    #discipline #explications{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         height: 50%;
     }
 
-    #presentation{
+    #discipline #presentation{
         border-radius: 30px;
     }
 
     /* EPREUVES */
-    #epreuves table{
+    #discipline #epreuves table{
         width: 100%;
     }
 
-    #epreuves div{
+    #discipline #epreuves div{
         float: right;
     }
 
-    #epreuves table tr td{
+    #discipline #epreuves table tr td{
         background-color: #F2911B;
         border: 10px solid #80A7BF;
         width: 40%;
         height: 40px;
     }
 
-    #epreuves table tr{
+    #discipline #epreuves table tr{
         margin: 10px;
     }
 
     /* SELECTION */
-    #selection section{
+    #discipline #selection section{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         height: 100%;
     }
 
-    #selection div{
+    #discipline #selection div{
         background-color: #d9d9d9;
         width: 47%;
     }
 
-    #selection div img{
+    #discipline #selection div img{
         float: left;
     }
 
-    #selection table{
+    #discipline #selection table{
         width: 100%;
         text-align: center;
         height: 10em;
     }
 
     /* TABLEAU */
-    #tableau{
+    #discipline #tableau{
         background-color: #80A7BF;
         color: #273D59;
         padding: 1%;
@@ -277,12 +278,12 @@ table img {
         text-align: center;
     }
     
-    #tableau table {
+    #discipline #tableau table {
         width: 135%;
         border-collapse: collapse;
     }
     
-    #tableau td {
+    #discipline #tableau td {
         background-color: #F2EFDF;
         color: #273D59;
         padding: 8px;
@@ -293,178 +294,120 @@ table img {
         font-size: large;
     }
 
-    #tableau td:nth-child(3),
-    #tableau td:nth-child(4),
-    #tableau td:nth-child(5) {
+    #discipline #tableau td:nth-child(3),
+    #discipline #tableau td:nth-child(4),
+    #discipline #tableau td:nth-child(5) {
         background-color: #273D59;
         color: #F2EFDF;
     }
     
-    #tableau th {
+    #discipline #tableau th {
         background-color: #80A7BF;
         color: #F2EFDF;
     }
 
-    #tableau table tbody tr:nth-child(1) td:nth-child(1){
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(1){
         background-color: #FCD88C;
     }
 
-    #tableau table tbody tr:nth-child(2) td:nth-child(1){
+    #discipline #tableau table tbody tr:nth-child(2) td:nth-child(1){
         background-color: #c0c0c0;
     }
 
-    #tableau table tbody tr:nth-child(3) td:nth-child(1){
+    #discipline #tableau table tbody tr:nth-child(3) td:nth-child(1){
         background-color: #8b4513;
     }
 
-    #tableau h2{
+    #discipline #tableau h2{
         text-align: left;
         color: black;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 620px){
-    /* Header */
-    header{
-        background-color: #F2EFDF;
-        height: 16em;
-    }
-
-    header div{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        max-width: 1440px;
-        height: 10em;
-    }
-
-    header div section{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 10em;
-    }
-
-    #images_container{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        padding-top: 2em;
-    }
-
-    #images_container img{
-        width: auto;
-        height: 50%;
-    }
-
-    button {
-        background-color: #273D59;
-        border-radius: 30px;
-        color: #F2EFDF;
-        width: 13em;
-        height: 5em; 
-        padding: 1em;
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        margin: 15px;
-        gap:5px;
-    }
-
-    button img {
-        width: auto;
-        height: 25px;
-        margin-right: 10px; 
-    }
-
-    .med{
-        display: none;
-    }
-
-    h1{
+    #discipline h1{
         text-align: center;
     }
     
-    main{
+    #discipline main{
         background-color: #80A7BF;
-
     }
     
-    main ul{
+    #discipline main ul{
         list-style: none;
     }
     
-    main article, h3, td, div, th{
+    #discipline main article, #discipline h3, #discipline td, #discipline div, #discipline th{
         padding: 1em;
         font-size: 20px;
     }
     
-    h3{
+    #discipline h3{
         background-color: #F2EFDF;
     }
     
-    #presentation h3, #presentation, #selection table, header li{
+    #discipline #presentation h3, #discipline #presentation, #discipline #selection table, #discipline header li{
         background-color: #273D59;
         color: white;
     }
     
-    h3, #presentation, #resume{
+    #discipline h3, #discipline #presentation, #discipline #resume{
         width: 90%;
     }
     
-    #resume{
+    #discipline #resume{
         background-color: #F2911B;
     }
     
     /* EPREUVES */
-    #epreuves table{
+    #discipline #epreuves table{
         width: 100%;
     }
     
-    #epreuves div{
+    #discipline #epreuves div{
         float: right;
     }
     
-    #epreuves table tr td{
+    #discipline #epreuves table tr td{
         background-color: #F2911B;
         border: 10px solid #80A7BF;
         width: 40%;
         height: 40px;
     }
     
-    #epreuves table tr{
+    #discipline #epreuves table tr{
         margin: 10px;
     }
 
-    #epreuves table tr td{
+    #discipline #epreuves table tr td{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         width: 90%;
     }
 
-    #epreuves table tr td::nth-word(3){
+    #discipline #epreuves table tr td::nth-word(3){
         display:none;
     }
     
     /* SELECTION */
-    #selection div{
+    #discipline #selection div{
         background-color: #d9d9d9;
         width: 90%;
     }
     
-    #selection div img{
+    #discipline #selection div img{
         float: left;
     }
     
-    #selection table{
+    #discipline #selection table{
         width: 100%;
         text-align: center;
         height: 10em;
     }
     
     /* TABLEAU */
-    #tableau{
+    #discipline #tableau{
         background-color: #80A7BF;
         color: #273D59;
         padding: 1%;
@@ -476,12 +419,12 @@ table img {
         text-align: center;
     }
        
-    #tableau table {
+    #discipline #tableau table{
         width: 130%;
         border-collapse: collapse;
     }
        
-    #tableau td {
+    #discipline #tableau td{
         background-color: #F2EFDF;
         color: #273D59;
         padding: 8px;
@@ -492,61 +435,61 @@ table img {
         font-size: large;
     }
     
-    #tableau td:nth-child(1) {
+    #discipline #tableau td:nth-child(1) {
         display: none;
     }
 
-    #tableau td:nth-child(3),
-    #tableau td:nth-child(4),
-    #tableau td:nth-child(5) {
+    #discipline #tableau td:nth-child(3),
+    #discipline #tableau td:nth-child(4),
+    #discipline #tableau td:nth-child(5){
         background-color: #273D59;
         color: #F2EFDF;
     }
        
-    #tableau th {
+    #discipline #tableau th{
         background-color: #80A7BF;
         color: #F2EFDF;
     }
     
-    #tableau table tbody tr:nth-child(1) td:nth-child(2), 
-    #tableau table tbody tr:nth-child(1) td:nth-child(3){
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(2), 
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(3){
         background-color: #F2911B;
     }
     
-    #tableau table tbody tr:nth-child(2) td:nth-child(2), 
-    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+    #discipline #tableau table tbody tr:nth-child(2) td:nth-child(2), 
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(4){
         background-color: #c0c0c0;
     }
     
-    #tableau table tbody tr:nth-child(3) td:nth-child(2), 
-    #tableau table tbody tr:nth-child(1) td:nth-child(5){
+    #discipline #tableau table tbody tr:nth-child(3) td:nth-child(2), 
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(5){
         background-color: #8B4513;
     }
 
-    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+    #discipline #tableau table tbody tr:nth-child(1) td:nth-child(4){
         color: black;
     }
 
-    #tableau table tbody tr:nth-child(11),
-    #tableau table tbody tr:nth-child(12),
-    #tableau table tbody tr:nth-child(13),
-    #tableau table tbody tr:nth-child(14),
-    #tableau table tbody tr:nth-child(15),
-    #tableau table tbody tr:nth-child(16),
-    #tableau table tbody tr:nth-child(17),
-    #tableau table tbody tr:nth-child(18),
-    #tableau table tbody tr:nth-child(19),
-    #tableau table tbody tr:nth-child(20),
-    #tableau table tbody tr:nth-child(21),
-    #tableau table tbody tr:nth-child(22),
-    #tableau table tbody tr:nth-child(23),
-    #tableau table tbody tr:nth-child(24),
-    #tableau table tbody tr:nth-child(25),
-    #tableau table tbody tr:nth-child(26){
+    #discipline #tableau table tbody tr:nth-child(11),
+    #discipline #tableau table tbody tr:nth-child(12),
+    #discipline #tableau table tbody tr:nth-child(13),
+    #discipline #tableau table tbody tr:nth-child(14),
+    #discipline #tableau table tbody tr:nth-child(15),
+    #discipline #tableau table tbody tr:nth-child(16),
+    #discipline #tableau table tbody tr:nth-child(17),
+    #discipline #tableau table tbody tr:nth-child(18),
+    #discipline #tableau table tbody tr:nth-child(19),
+    #discipline #tableau table tbody tr:nth-child(20),
+    #discipline #tableau table tbody tr:nth-child(21),
+    #discipline #tableau table tbody tr:nth-child(22),
+    #discipline #tableau table tbody tr:nth-child(23),
+    #discipline #tableau table tbody tr:nth-child(24),
+    #discipline #tableau table tbody tr:nth-child(25),
+    #discipline #tableau table tbody tr:nth-child(26){
         display: none;
     }
     
-    #tableau h2{
+    #discipline #tableau h2{
         text-align: center;
         color: black;
     }
