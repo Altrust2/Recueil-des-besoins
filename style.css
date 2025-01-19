@@ -922,7 +922,68 @@ footer img{
     /*************************/
     /* FIN PAGE TITOUAN      */
     /*************************/
+    /*************************/
+    /*     partie leo        */
+    /*************************/
     
+header{
+    background-color: #F2EFDF;
+    height: 16em;
+    width: 1440px;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10em;
+}
+
+header div section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10em;
+}
+
+#images_container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 2em;
+}
+
+#images_container img{
+    width: auto;
+    height: 14em;
+}
+
+button {
+    background-color: #273D59;
+    border-radius: 30px;
+    color: #F2EFDF;
+    width: 13em;
+    height: 5em; 
+    padding: 1em;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 15px;
+    gap:5px;
+}
+
+button img {
+    width: auto;
+    height: 25px;
+    margin-right: 10px; 
+}
+
+
+
+#logo_jo{
+    height: 50px;
+    width: 50px;
+}
 body {
     display: flex;
     flex-wrap: wrap;
@@ -1023,9 +1084,9 @@ figure:hover {
 }
     
 #tabchiffres section td {
-    background-color: #F2EFDF; /* Set background color to white */
-    color: #273D59; /* Set text color to black for better readability */
-    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
+    background-color: #F2EFDF; 
+    color: #273D59; 
+    border: 10px solid #80A7BF; 
     text-align: center;
     font-weight: bold;
     text-transform: capitalize;
@@ -1035,17 +1096,17 @@ figure:hover {
 #tabchiffres section td:nth-child(4),
 #tabchiffres section td:nth-child(5) {
     background-color: #273D59;
-    color: #F2EFDF; /* Optional: Change text color for better readability */
+    color: #F2EFDF; 
 }
     
 #tabchiffres section th {
-    background-color: #80A7BF; /* Keep header background color as is */
-    color: #F2EFDF; /* Keep header text color as is */
+    background-color: #80A7BF; 
+    color: #F2EFDF; 
     height: 50px;
 }
 table img {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; 
+    height: auto; 
 }
 #tabchiffres section h2 {
     text-align: center;
@@ -1098,21 +1159,130 @@ table img {
     list-style-type: none;
 }
 #tabchiffres section table tbody tr td:nth-child(2):hover {
-    background-color: #273D59; /* Color for États-Unis */
+    background-color: #273D59; 
     color: #F2EFDF;
 }
 #tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
-    background-color: #FCDB8C; /* Color for États-Unis */
+    background-color: #FCDB8C; 
     color: #273D59;
 }
 
 #tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
-    background-color: #C0C0C0; /* Color for Chine */
+    background-color: #C0C0C0; /
     color: #273D59;
 }
 #tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
-    background-color: #8B4513; /* Color for Chine */
+    background-color: #8B4513; /
     color: #273D59;
+}
+/* Maintain aspect ratio */
+/* Maintain aspect ratio */
+/* Maintain aspect ratio */
+
+/* Contenu qui dépasse la largeur de l'article */
+footer {
+    background-color: #F2EFDF;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px; /* Largeur à 100% */
+    box-sizing: border-box;
+    bottom: 0;
+}
+footer button {
+    display: flex;
+    background-color: #273D59;
+    border-radius: 30px;
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    color: #D9D9D9;
+    margin: 5px;
+}
+#sponsors img {
+    width: 125px;
+    height: auto;
+    margin: 10px;
+    border-radius:  50%;
+}
+#sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Media queries*/
+@media screen and (max-width: 1440px) {
+    #tabchiffres section {
+        width: 100%;
+        width: 620px;
+    }
+
+    #tabchiffres section table {
+        width: 620px; 
+        height: auto; 
+    }
+
+    #tabchiffres section td {
+        font-size: medium; 
+        padding: 5px; 
+    }
+
+    #tabchiffres section th {
+        font-size: medium; 
+        height: auto;
+    }
+
+    table img {
+        width: 30px; 
+    }
+    body {
+        flex-direction: column;
+    }
+
+    #Presentationjeu {
+        width: 600px;
+    }
+
+    #Actualite {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #Actualite figure {
+        width: 600px; 
+    }
+    #tabchiffres {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #paralympiques {
+        width: 600px; 
+        
+    }
+    #paralympiques div {
+        flex-direction: column;
+    }
+    #cat div {
+        flex-direction: column;
+        width: 600px; 
+    }
+    #cat div div img {
+        width: 580px; 
+    }
+    #sponsors img {
+        width: 80px;
+    }
+    #sponsors {
+        width: 620px;
+        flex-wrap: wrap;
+        
+    }
 }
 /* Maintain aspect ratio */
 /* Maintain aspect ratio */
