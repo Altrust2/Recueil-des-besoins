@@ -6,6 +6,41 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
+<header>
+    <div>   
+        <button>
+            <img src="images/accueil_icone.png" alt="Icone accueil" title="Icone accueil">Accueil</img>
+        </button>
+        
+        <section id="images_container">
+            <img  src="images/—Pngtree—vector color gold and silver_2974157.png" alt="Image type médailles" title="Type médailles"></img>
+            <img  src="images/Logo_jo.png" alt="Logo des Jeux de paris 2024" title="Logo des jeux de Paris 2024"></img>
+            <img  src="images/—Pngtree—vector color gold and silver_2974157.png" alt="Image type médailles" title="Type médailles"></img>
+        </section>
+        <button>
+            <img src="images/athlète_icone.png" alt="Icone athlète" title="Icone athlète">Athlètes</img>
+        </button>
+    </div>
+    <div>
+        <section>
+            <button>
+                <img src="images/sites_olympiques_icone.png" alt="Icone sites olympiques" title="Icone sites olympiques">Sites Olympiques</img>
+            </button>
+            <button>
+                <img src="images/discipline_icone.png" alt="Icone discipline" title="Icone discipline">Disciplines</img>
+            </button>
+        </section>
+        <section></section>
+            <button>
+                <img src="images/épreuves_icone.png" alt="Icone épreuve" title="Icone épreuve">Epreuves</img>
+            </button>
+            <button>
+                <img src="images/paralympique_icone.png" alt="Icone paralympique" title="Icone paralympique">Paralympiques</img>
+            </button>
+        </section>
+    </div>
+    
+</header>
 <body>
 <article id="Presentationjeu">
         <h2>Présentation des jeux Olympiques</h2>
@@ -402,217 +437,19 @@
     <h2>Sponsors des JO 2024</h2>
     <div>
         <img src="images/sponsor1.jpg" alt="actu1" title="actu1" >
-        <img src="images/sponsor2.jpg" alt="actu1" title="actu1" >
+        <img src="images/sponsor2.jpeg" alt="actu1" title="actu1" >
         <img src="images/sponsor3.jpg" alt="actu1" title="actu1" >
-        <img src="images/sponsor4.jpg" alt="actu1" title="actu1" >
-        <img src="images/sponsor5.jpg" alt="actu1" title="actu1" >
+        <img src="images/sponsor4.jpeg" alt="actu1" title="actu1" >
+        <img src="images/sponsor5.png" alt="actu1" title="actu1" >
         
     </main>
 </body>
-        <footer>
-            <button >Mentions légales</button>
-            
-            <img src="images/Logo_jo.png" alt="Logo JO 2024" title="Logo JO 2024" id="logo_jo"></img>
-            
-            <button >À propos</button>
+<footer>
+    <button >Mentions légales</button>
     
-        </footer>
-</body>
+    <img src="images/Logo_jo.png" alt="Logo JO 2024" title="Logo JO 2024" id="logo_jo"></img>
+    
+    <button >À propos</button>
+
+</footer>
 </html>
-body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: #80A7BF;
-    width: 1440px;
-    }
-h2{
-    font-size:x-large;
-    color: #273D59;
-    }
-
-#Presentationjeu{
-    height: 200px;
-    background-color: #80A7BF;
-    color: #F2EFDF;
-    border-radius: 0.5em;
-    margin: 1%;
-    justify-content: center;
-    border :black double 1px ;
-    margin: 20px;
-    padding: 5px;
-    }
-#Presentationjeu h2{
-    color: #F2EFDF;
-    text-align: center;
-    }
-
-#Actualite{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-
-#Actualite figure{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    background-color: #273D59;
-    color: #F2EFDF;
-    width: 32%;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 5px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-#Actualite figure img{
-width: 250px;
-height: auto;
-border-radius: 0.5em;
-}
-figure:hover {
-    transform: scale(1.03); /* Agrandit l'élément */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajoute un effet d'ombre */
-}
-
-#tabchiffres{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#tabchiffres article div{
-    background-color: #273D59;
-    color: #F2EFDF;
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size:xx-large;
-    border-color: black;
-    width: 350px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-content:end;
-    margin-bottom: 10px;
-    margin-top: 90px;
-    padding-top: 10px;
-    padding-bottom:10px ;
-}
-
-#tabchiffres section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 1000px;
-}
-#tabchiffres section table {
-    width: 1000px;
-    height: 700px;
-    border-collapse: collapse;
-}
-    
-#tabchiffres section td {
-    background-color: #F2EFDF; /* Set background color to white */
-    color: #273D59; /* Set text color to black for better readability */
-    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: large;
-}
-#tabchiffres section td:nth-child(3),
-#tabchiffres section td:nth-child(4),
-#tabchiffres section td:nth-child(5) {
-    background-color: #273D59;
-    color: #F2EFDF; /* Optional: Change text color for better readability */
-}
-    
-#tabchiffres section th {
-    background-color: #80A7BF; /* Keep header background color as is */
-    color: #F2EFDF; /* Keep header text color as is */
-    height: 50px;
-}
-table img {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-#tabchiffres section h2 {
-    text-align: center;
-}
-
-#paralympiques{
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#paralympiques div{
-    background-color: #F2EFDF;
-    border-radius: 0.5em;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-#paralympiques div img{
-        width: 190px;
-        height: auto;
-        border-radius: 0.5em;
-}
-#paralympiques div p{
-        margin: 20px;
-}
-
-#cat div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    background-color: #F2911B;
-    border-radius: 1em;
-    width: 1400px;
-    margin-bottom: 20px;
-}
-#cat div div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-#cat div div img{
-    width: 570px;
-    height: 200px;
-    border-radius: 1em;
-
-}
-#cat div div ol{
-    list-style-type: none;
-}
-#tabchiffres section table tbody tr td:nth-child(2):hover {
-    background-color: #273D59; /* Color for États-Unis */
-    color: #F2EFDF;
-}
-#tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
-    background-color: #FCDB8C; /* Color for États-Unis */
-    color: #273D59;
-}
-
-#tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
-    background-color: #C0C0C0; /* Color for Chine */
-    color: #273D59;
-}
-#tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
-    background-color: #8B4513; /* Color for Chine */
-    color: #273D59;
-}
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-
-/* Contenu qui dépasse la largeur de l'article */
-
-
