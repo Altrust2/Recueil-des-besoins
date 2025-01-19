@@ -1,169 +1,4 @@
-/**********/
-/* Header */
-/**********/
-/* Header */
-header{
-    background-color: #F2EFDF;
-    height: 16em;
-}
-header div{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-
-}
-header div section{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
-#boutons_droite{
-    display: flex;
-    justify-content: flex-end;
-}
-#images_container{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding-top: 2em;
-}
-#images_container img{
-    width: auto;
-    height: 14em;
-}
-a {
-    background-color: #273D59;
-    border-radius: 30px;
-    color: #F2EFDF;
-    width: 13em;
-    height: 2em; 
-    padding: 1em;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 15px;
-}
-
-a img {
-    width: auto;
-    height: 25px;
-    margin-right: 10px; 
-}
-
-
-//partie de Léo le GOAT
-
-#logo_jo{
-    height: 50px;
-    width: 50px;
-}
-figure img{
-    width: 400px;
-    height: auto;
-    border-radius: 0.5em;
-}
-figure{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    background-color: #273D59;
-    color: #F2EFDF;
-    width: 32%;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 5px;
-}
-#Actualite{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-
-}
-#Presentationjeu{
-    background-color: #273D59;
-    color: #F2EFDF;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 5px;
-    justify-content: center;
-    border-color: black;
-}
-#tableaumed{
-    color: #273D59;
-    padding: 1%;
-    border-radius: 0.5em;
-    margin: 5px;
-    justify-content: center;
-    border-color: black;
-    width: 73%;
-    text-align: center;
-}
-#chiffresimp{
-    background-color: #80A7BF;
-    color: #F2EFDF;
-    padding: 1%;
-    border-radius: 0.5em;
-    margin: 5px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size:xx-large;
-    border-color: black;
-    width: 22%;
-}
-#chiffresimp div{
-    background-color: #273D59;
-
-}
-#chiffresimp h2{
-    font-size:x-large;
-    padding-bottom: 100px;
-}
-
- body{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: #80A7BF;
- }
- #tableaumed table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-#tableaumed th, #tableaumed td {
-    background-color: #F2EFDF; /* Set background color to white */
-    color: #273D59; /* Set text color to black for better readability */
-    padding: 8px;
-    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: large;
-}
-#tableaumed td:nth-child(3),
-#tableaumed td:nth-child(4),
-#tableaumed td:nth-child(5) {
-    background-color: #273D59;
-    color: #F2EFDF; /* Optional: Change text color for better readability */
-}
-
-#tableaumed th {
-    background-color: #80A7BF; /* Keep header background color as is */
-    color: #F2EFDF; /* Keep header text color as is */
-}
-table img {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/***************
- * CODE AMELIE *
- ***************/
 @media screen and (min-width: 620px) {
-    /* Amélie */
     #discipline body{
         background-color: #80A7BF;
     }
@@ -318,9 +153,729 @@ table img {
         text-align: left;
         color: black;
     }
+
+    #sportif body{
+        background-color: #80A7BF;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    
+    }
+    #sportif{
+        padding: 30px;
+        display: block;
+    }
+    
+    #sportif h1 ,#sportif h2,#sportif h3{
+        text-align: center;
+    }
+    #sportif h1{
+        border-style: solid;
+        border-color: black;
+        border-radius: 30px;
+        margin: 20px 15em;
+        padding: 1em 0em;
+        color: #F2EFDF;
+    }
+    
+    #sportif .liens{
+        color:red;
+    }
+    
+    #sportif #bloc{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 400px;
+        padding-right: 20px;
+        margin-bottom: 15px;
+    }
+    
+    #sportif #bloc img{
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    
+    #sportif #infos_essentielles {
+        background-color: #273D59;
+        border-radius: 40px;
+        width: 400px;
+        color: #F2EFDF;
+    }
+    
+    #sportif #logo_jo{
+        height: 70px;
+        width: 70px;
+    }
+    
+    /* Tableau des médailles*/
+    #sportif #tablo {
+        border-spacing: 0.5em;
+        color: #273D59;
+        margin: 5em auto;
+        width: 80%;
+    }
+    #sportif #tablo tr {
+        background-color: #F2EFDF;
+    }
+    #sportif #tablo th, #sportif #tablo td {
+        text-align: center;
+        padding: 0.5em;
+    }
+    #sportif #type_comp{
+        background-color: #273D59;
+        color: #D9D9D9;
+    }
+    #sportif #médailles_or{
+        background-color: #FCDB8C;
+    }
+    #sportif #médailles_argent{
+        background-color: #C0C0C0;
+    }
+    #sportif #médailles_bronze{
+        background-color: #8B4513;
+        color: #F2EFDF;
+    }
+    
+    #sportif .Moments{
+        background-color: #273D59;
+        color: #F2EFDF;
+        border-radius: 30px;
+        padding: 20px;
+        margin:15px;
+        margin-bottom: 30px;
+    }
+    
+    #sportif .Moments div{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #sportif .Moments div img{
+        width: auto;
+        height: 10em  ;
+        margin :1em;
+        justify-content: center;
+    }
+    
+    
+    /* Récapitulatif des participations de Teddy Riner aux différents jeux */
+    #sportif .JeuxD,#sportif .JeuxG{
+        border-radius: 40px;
+        background-color: #f2911B;
+        margin: 30px 20px;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    #sportif .JeuxD div,#sportif .JeuxG div{
+        border-radius: 40px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+        justify-content: center;  
+        text-align: center;  
+        padding:1em;     
+    }
+    #sportif .JeuxD img,n.JeuxG img{
+        width: 25em;
+        height: auto;
+        border-radius: 30px;
+        justify-items: center;
+        align-self: center;
+        margin: 1em;
+    }
+    
+    #sportif  .JeuxD{
+        margin-right: 7em;
+    }
+    #sportif  .JeuxG{
+        margin-left: 7em;
+    }
+    
+    /* Médailles obtenues par teddy Riner pendant Paris 2024 */
+    #sportif  #conteneur_médailles{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10em;
+    }
+    #sportif  .médailles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;     
+        margin: 15px;
+        padding: 10px;
+        background-color: #F2EFDF;
+        border-radius: 30px;
+        width: 45em;
+        height: auto;
+    }
+    #sportif  .médailles img {
+        width: 17em;
+        height: auto;
+        border-radius: 30px;
+    }
+    
+    #main_epreuve body {
+        background-color: #80A7BF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        }
+    
+    #main_epreuve section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+        }
+    #main_epreuve section article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 20px;
+        }
+    #main_epreuve div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        }
+    
+    #main_epreuve section h1 {
+        width: 1050px;
+        height: 50px;
+        background-color: #D9D9D9;
+        border-radius: 60px;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+        
+    #main_epreuve section article h2{
+        background-color: #D9D9D9;
+        border-radius: 60px;
+        width: 770px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: normal;
+        
+    }
+    
+    #main_epreuve .deroulement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #main_epreuve section article div {
+        background-color: #273D59;
+        border-radius: 60px;
+        width: 1000px;
+        height: 300px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    #main_epreuve section article div p {
+        color: #D9D9D9;
+        font-size: 20px;
+        margin: 20%;
+        margin-bottom: 10px;
+        margin-top: 0%;
+        text-align: justify;
+    }
+    
+    #main_epreuve .introduction{
+        margin-left: -235px;
+    }
+    
+    #main_epreuve section h2 {
+        width: 1050px;
+        height: 50px;
+        background-color: #D9D9D9;
+        border-radius: 60px;
+        text-align: center;
+    }
+    
+    #main_epreuve .partieDeux{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 150px;
+    }
+    
+    #main_epreuve .titrePetits{
+        width: 500px;
+        height: 50px;
+        background-color: #D9D9D9;
+        border-radius: 60px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: normal;
+    }
+    #main_epreuve .articles{
+        background-color: #273D59;
+        border-radius: 60px;
+        width: 500px;
+        height: 1000px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #main_epreuve hr {
+        width: 700px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 1px solid black;
+    }
+    
+    #main_epreuve .separation{
+        width: 5px; 
+        height: 500px; 
+        background-color: #D9D9D9; 
+        border: none; 
+    }
+    #main_epreuve .span-replacement {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    
+    #main_epreuve section div div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        
+    }
+    #main_epreuve section div div article{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #main_epreuve section div div article div{
+        background-color: #F2911B;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 160px;
+        gap: 10px;
+        
+    }
+    #main_epreuve section div div article h3{
+        background-color: #F2911B;
+        border-radius: 60px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    
+    #main_epreuve section div div article div p{
+        color: black;
+        font-size: 20px;
+        text-align: justify;
+    
+    }
+    
+    #main_epreuve section .deroulement{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #main_epreuve .versus{
+        width: 80px;
+        height: auto;
+    }
+    
+    #main_epreuve .vainqueur{
+        width: 200px;
+        background-color: #BDF9A9;
+        color: black;
+        text-align: center;
+    
+    }
+    
+    #main_epreuve .vaincu{
+        width: 200px;
+        background-color: #F57D74;
+        color: black;
+        text-align: center;
+    
+    }
+    
+    #main_epreuve .match-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: transparent;
+    }
+    #main_epreuve section div article div div{
+        background-color: transparent;
+        display: flex;
+        gap: 0px;
+        
+    }
+    #main_epreuve figure img{
+        width: 200px;
+        height: 200px;   
+    }
+    
+    #main_epreuve .compet{
+        width: auto;
+        height: auto;
+    }
+    
+    #main_epreuve .img_date{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #main_epreuve figcaption{
+        background-color: #F2911B;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        
+    }
+    #main_epreuve section div div article div figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    
+    #main_epreuve .tour{
+        background-color: #273D59;
+        height: auto;
+        width: 500px;
+        color: #D9D9D9;
+    }
+    #main_epreuve section div article div div p{
+        color: black;
+        
+        text-align: justify;
+    }
+    #main_epreuve .separe{
+        display: flex;
+        gap: 100px;
+    }
+
+    #accueil body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: #80A7BF;
+        width: 1440px;
+        }
+    #accueil h2{
+        font-size:x-large;
+        color: #273D59;
+        }
+    
+    #accueil #Presentationjeu{
+        height: auto;
+        background-color: #80A7BF;
+        color: #F2EFDF;
+        border-radius: 0.5em;
+        margin: 1%;
+        justify-content: center;
+        border :black double 1px ;
+        margin: 20px;
+        padding: 5px;
+    
+    }
+    #accueil #Presentationjeu h2{
+        color: #F2EFDF;
+        text-align: center;
+        }
+    
+    #accueil #Actualite{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 1400px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    
+    #accueil #Actualite figure{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        background-color: #273D59;
+        color: #F2EFDF;
+        width: 32%;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin: 5px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    #accueil #Actualite figure img{
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    }
+    #accueil figure:hover {
+        transform: scale(1.03); /* Agrandit l'élément */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajoute un effet d'ombre */
+    }
+    
+    #accueil #tabchiffres{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 1400px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    #accueil #tabchiffres article div{
+        background-color: #273D59;
+        color: #F2EFDF;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size:xx-large;
+        border-color: black;
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-content:end;
+        margin-bottom: 10px;
+        margin-top: 90px;
+        padding-top: 10px;
+        padding-bottom:10px ;
+    }
+    
+    #accueil #tabchiffres section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 1000px;
+    }
+    #accueil #tabchiffres section table {
+        width: 1000px;
+        height: 700px;
+        border-collapse: collapse;
+    }
+        
+    #accueil #tabchiffres section td {
+        background-color: #F2EFDF; /* Set background color to white */
+        color: #273D59; /* Set text color to black for better readability */
+        border: 10px solid #80A7BF; /* Optional: Add border for better separation */
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: large;
+    }
+    #accueil #tabchiffres section td:nth-child(3),
+    #accueil #tabchiffres section td:nth-child(4),
+    #accueil #tabchiffres section td:nth-child(5) {
+        background-color: #273D59;
+        color: #F2EFDF; /* Optional: Change text color for better readability */
+    }
+        
+    #accueil #tabchiffres section th {
+        background-color: #80A7BF; /* Keep header background color as is */
+        color: #F2EFDF; /* Keep header text color as is */
+        height: 50px;
+    }
+    #accueil table img {
+        width: 50px; /* Adjust the size as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    #accueil #tabchiffres section h2 {
+        text-align: center;
+    }
+    
+    #accueil #paralympiques{
+        width: 1400px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    #accueil #paralympiques div{
+        background-color: #F2EFDF;
+        border-radius: 0.5em;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    #accueil #paralympiques div img{
+            width: 190px;
+            height: auto;
+            border-radius: 0.5em;
+    }
+    #accueil #paralympiques div p{
+            margin: 20px;
+    }
+    
+    #accueil #cat div{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        background-color: #F2911B;
+        border-radius: 1em;
+        width: 1400px;
+        margin-bottom: 20px;
+    }
+    #accueil #cat div div{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    #accueil #cat div div img{
+        width: 570px;
+        height: 200px;
+        border-radius: 1em;
+    
+    }
+    #accueil #cat div div ol{
+        list-style-type: none;
+    }
+    #accueil #tabchiffres section table tbody tr td:nth-child(2):hover {
+        background-color: #273D59; /* Color for États-Unis */
+        color: #F2EFDF;
+    }
+    #accueil #tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
+        background-color: #FCDB8C; /* Color for États-Unis */
+        color: #273D59;
+    }
+    
+    #accueil #tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
+        background-color: #C0C0C0; /* Color for Chine */
+        color: #273D59;
+    }
+    #accueil #tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
+        background-color: #8B4513; /* Color for Chine */
+        color: #273D59;
+    }
+    
+    #accueil #sponsors img {
+        width: 125px;
+        height: auto;
+        margin: 10px;
+        border-radius:  50%;
+    }
+    #accueil #sponsors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    header{
+        background-color: #F2EFDF;
+        height: 16em;
+    }
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10em;
+    
+    }
+    header div section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10em;
+    }
+    #boutons_droite{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    #images_container img{
+        width: auto;
+        height: 14em;
+    }
+    a {
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 13em;
+        height: 2em; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+    }
+    
+    a img {
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #F2EFDF;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    footer a {
+        display: flex;
+        background-color: #273D59;
+        border-radius: 20px;
+        width: 30%;
+        height: 70%;
+        justify-content: center;
+        align-items: center; 
+        color: #D9D9D9;
+        margin: 5px;
+    }
+    footer img{
+        width: 65px;
+        height: 72px;
+    }
+    
 }
 
 @media screen and (min-width: 480px) and (max-width: 620px){
+
     #discipline h1{
         text-align: center;
     }
@@ -489,1158 +1044,6 @@ table img {
         text-align: center;
         color: black;
     }
-}
-
-/*******************
- * FIN CODE AMELIE *
- *******************/
-
-
-/***********************/
-/* Page sportif Titouan*/
-/***********************/
-/* Page sportif Titouan*/
-body{
-    background-color: #80A7BF;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0;
-
-}
-#sportif{
-    padding: 30px;
-    display: block;
-}
-
-#sportif h1 ,#sportif h2,#sportif h3{
-    text-align: center;
-}
-#sportif h1{
-    border-style: solid;
-    border-color: black;
-    border-radius: 30px;
-    margin: 20px 15em;
-    padding: 1em 0em;
-    color: #F2EFDF;
-}
-
-#sportif .liens{
-    color:red;
-}
-
-#sportif #bloc{
-    display: flex;
-    flex-direction: column;
-    float: left;
-    width: 400px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-}
-
-#sportif #bloc img{
-    margin-bottom: 20px;
-    border-radius: 30px;
-}
-
-#sportif #infos_essentielles {
-    background-color: #273D59;
-    border-radius: 40px;
-    width: 400px;
-    color: #F2EFDF;
-}
-
-#sportif #logo_jo{
-    height: 70px;
-    width: 70px;
-}
-
-/* Tableau des médailles*/
-#sportif #tablo {
-    border-spacing: 0.5em;
-    color: #273D59;
-    margin: 5em auto;
-    width: 80%;
-}
-#sportif #tablo tr {
-    background-color: #F2EFDF;
-}
-#sportif #tablo th, #sportif #tablo td {
-    text-align: center;
-    padding: 0.5em;
-}
-#sportif #type_comp{
-    background-color: #273D59;
-    color: #D9D9D9;
-}
-#sportif #médailles_or{
-    background-color: #FCDB8C;
-}
-#sportif #médailles_argent{
-    background-color: #C0C0C0;
-}
-#sportif #médailles_bronze{
-    background-color: #8B4513;
-    color: #F2EFDF;
-}
-
-#sportif .Moments{
-    background-color: #273D59;
-    color: #F2EFDF;
-    border-radius: 30px;
-    padding: 20px;
-    margin:15px;
-    margin-bottom: 30px;
-}
-
-#sportif .Moments div{
-    display: flex;
-    flex-direction: row;
-}
-
-#sportif .Moments div img{
-    width: auto;
-    height: 10em  ;
-    margin :1em;
-    justify-content: center;
-}
-
-
-/* Récapitulatif des participations de Teddy Riner aux différents jeux */
-#sportif .JeuxD,#sportif .JeuxG{
-    border-radius: 40px;
-    background-color: #f2911B;
-    margin: 30px 20px;
-    justify-items: center;
-    display: flex;
-    flex-direction: row;
-
-}
-#sportif .JeuxD div,#sportif .JeuxG div{
-    border-radius: 40px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;      
-    justify-content: center;  
-    text-align: center;  
-    padding:1em;     
-}
-#sportif .JeuxD img,n.JeuxG img{
-    width: 25em;
-    height: auto;
-    border-radius: 30px;
-    justify-items: center;
-    align-self: center;
-    margin: 1em;
-}
-
-#sportif  .JeuxD{
-    margin-right: 7em;
-}
-#sportif  .JeuxG{
-    margin-left: 7em;
-}
-
-
-/* Médailles obtenues par teddy Riner pendant Paris 2024 */
-#sportif  #conteneur_médailles{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10em;
-}
-#sportif  .médailles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
-    margin: 15px;
-    padding: 10px;
-    background-color: #F2EFDF;
-    border-radius: 30px;
-    width: 45em;
-    height: auto;
-}
-#sportif  .médailles img {
-    width: 17em;
-    height: auto;
-    border-radius: 30px;
-}
-
-
-
-    
-
-/**********/
-/* Footer */
-/**********/
-footer {
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-
-}
-footer a {
-    display: flex;
-    background-color: #273D59;
-    border-radius: 20px;
-    width: 30%;
-    height: 70%;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-footer img{
-    width: 65px;
-    height: 72px;
-}
-
-
-    /*************************/
-    /* FIN PAGE TITOUAN      */
-    /*************************/
-    /*************************/
-    /*     partie leo        */
-    /*************************/
-    
-header{
-    background-color: #F2EFDF;
-    height: 16em;
-    width: 1440px;
-}
-
-header div{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
-
-header div section{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
-
-#images_container{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding-top: 2em;
-}
-
-#images_container img{
-    width: auto;
-    height: 14em;
-}
-
-button {
-    background-color: #273D59;
-    border-radius: 30px;
-    color: #F2EFDF;
-    width: 13em;
-    height: 5em; 
-    padding: 1em;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 15px;
-    gap:5px;
-}
-
-button img {
-    width: auto;
-    height: 25px;
-    margin-right: 10px; 
-}
-
-
-
-#logo_jo{
-    height: 50px;
-    width: 50px;
-}
-body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: #80A7BF;
-    width: 1440px;
-    }
-h2{
-    font-size:x-large;
-    color: #273D59;
-    }
-
-#Presentationjeu{
-    height: auto;
-    background-color: #80A7BF;
-    color: #F2EFDF;
-    border-radius: 0.5em;
-    margin: 1%;
-    justify-content: center;
-    border :black double 1px ;
-    margin: 20px;
-    padding: 5px;
-
-}
-#Presentationjeu h2{
-    color: #F2EFDF;
-    text-align: center;
-    }
-
-#Actualite{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-
-#Actualite figure{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    background-color: #273D59;
-    color: #F2EFDF;
-    width: 32%;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 5px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-#Actualite figure img{
-width: 250px;
-height: auto;
-border-radius: 0.5em;
-}
-figure:hover {
-    transform: scale(1.03); /* Agrandit l'élément */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajoute un effet d'ombre */
-}
-
-#tabchiffres{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#tabchiffres article div{
-    background-color: #273D59;
-    color: #F2EFDF;
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size:xx-large;
-    border-color: black;
-    width: 350px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-content:end;
-    margin-bottom: 10px;
-    margin-top: 90px;
-    padding-top: 10px;
-    padding-bottom:10px ;
-}
-
-#tabchiffres section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 1000px;
-}
-#tabchiffres section table {
-    width: 1000px;
-    height: 700px;
-    border-collapse: collapse;
-}
-    
-#tabchiffres section td {
-    background-color: #F2EFDF; 
-    color: #273D59; 
-    border: 10px solid #80A7BF; 
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: large;
-}
-#tabchiffres section td:nth-child(3),
-#tabchiffres section td:nth-child(4),
-#tabchiffres section td:nth-child(5) {
-    background-color: #273D59;
-    color: #F2EFDF; 
-}
-    
-#tabchiffres section th {
-    background-color: #80A7BF; 
-    color: #F2EFDF; 
-    height: 50px;
-}
-table img {
-    width: 50px; 
-    height: auto; 
-}
-#tabchiffres section h2 {
-    text-align: center;
-}
-
-#paralympiques{
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#paralympiques div{
-    background-color: #F2EFDF;
-    border-radius: 0.5em;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-#paralympiques div img{
-        width: 190px;
-        height: auto;
-        border-radius: 0.5em;
-}
-#paralympiques div p{
-        margin: 20px;
-}
-
-#cat div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    background-color: #F2911B;
-    border-radius: 1em;
-    width: 1400px;
-    margin-bottom: 20px;
-}
-#cat div div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-#cat div div img{
-    width: 570px;
-    height: 200px;
-    border-radius: 1em;
-
-}
-#cat div div ol{
-    list-style-type: none;
-}
-#tabchiffres section table tbody tr td:nth-child(2):hover {
-    background-color: #273D59; 
-    color: #F2EFDF;
-}
-#tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
-    background-color: #FCDB8C; 
-    color: #273D59;
-}
-
-#tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
-    background-color: #C0C0C0; /
-    color: #273D59;
-}
-#tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
-    background-color: #8B4513; /
-    color: #273D59;
-}
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-
-/* Contenu qui dépasse la largeur de l'article */
-footer {
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-around;
-    width: 1440px; /* Largeur à 100% */
-    box-sizing: border-box;
-    bottom: 0;
-}
-footer button {
-    display: flex;
-    background-color: #273D59;
-    border-radius: 30px;
-    width: 30%;
-    height: 50px;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-#sponsors img {
-    width: 125px;
-    height: auto;
-    margin: 10px;
-    border-radius:  50%;
-}
-#sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-direction: column;
-}
-
-/* Media queries*/
-@media screen and (max-width: 1440px) {
-    #tabchiffres section {
-        width: 100%;
-        width: 620px;
-    }
-
-    #tabchiffres section table {
-        width: 620px; 
-        height: auto; 
-    }
-
-    #tabchiffres section td {
-        font-size: medium; 
-        padding: 5px; 
-    }
-
-    #tabchiffres section th {
-        font-size: medium; 
-        height: auto;
-    }
-
-    table img {
-        width: 30px; 
-    }
-    body {
-        flex-direction: column;
-    }
-
-    #Presentationjeu {
-        width: 600px;
-    }
-
-    #Actualite {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-    #Actualite figure {
-        width: 600px; 
-    }
-    #tabchiffres {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-
-    #paralympiques {
-        width: 600px; 
-        
-    }
-    #paralympiques div {
-        flex-direction: column;
-    }
-    #cat div {
-        flex-direction: column;
-        width: 600px; 
-    }
-    #cat div div img {
-        width: 580px; 
-    }
-    #sponsors img {
-        width: 80px;
-    }
-    #sponsors {
-        width: 620px;
-        flex-wrap: wrap;
-        
-    }
-}
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-
-/* Contenu qui dépasse la largeur de l'article */
-footer {
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-around;
-    width: 1440px; /* Largeur à 100% */
-    box-sizing: border-box;
-    bottom: 0;
-}
-footer button {
-    display: flex;
-    background-color: #273D59;
-    border-radius: 30px;
-    width: 30%;
-    height: 50px;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-#sponsors img {
-    width: 125px;
-    height: auto;
-    margin: 10px;
-    border-radius:  50%;
-}
-#sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-/* Media queries for mobile devices */
-@media screen and (max-width: 1440px) {
-    #tabchiffres section {
-        width: 100%; /* Adjust section width for smaller screens */
-    }
-
-    #tabchiffres section table {
-        width: 428px; /* Adjust table width for smaller screens */
-        height: auto; /* Adjust height for smaller screens */
-    }
-
-    #tabchiffres section td {
-        font-size: medium; /* Adjust font size for better readability */
-        padding: 5px; /* Adjust padding for smaller screens */
-    }
-
-    #tabchiffres section th {
-        font-size: medium; /* Adjust font size for better readability */
-        height: auto; /* Adjust height for smaller screens */
-    }
-
-    table img {
-        width: 30px; /* Adjust image size for smaller screens */
-    }
-    body {
-        flex-direction: column;
-    }
-
-    #Presentationjeu {
-        width: 400px; /* Adjust width for smaller screens */
-    }
-
-    #Actualite {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-    #Actualite figure {
-        width: 400px; /* Adjust width for smaller screens */
-    }
-    #tabchiffres {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-
-    #paralympiques {
-        width: 400px; /* Adjust width for smaller screens */
-        
-    }
-    #paralympiques div {
-        flex-direction: column;
-    }
-    #cat div {
-        flex-direction: column;
-        width: 400px; 
-    }
-    #cat div div img {
-        width: 380px; /* Adjust image size */
-    }
-    #sponsors img {
-        width: 80px; /* Adjust image size */
-    }
-    #sponsors {
-        width: 428px;
-        flex-wrap: wrap;
-        
-    }
-}
-
-
-body {
-    background-color: #80A7BF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    }
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    }
-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    }
-
-section h1 {
-    width: 1050px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-    line-height: 50px;
-    
-}
-    
-section article h2{
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    width: 770px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: normal;
-    
-}
-
-section article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-section article div {
-    background-color: #273D59;
-    border-radius: 60px;
-    width: 1000px;
-    height: 300px;
-    display: flex;
-    align-items: flex-start;
-}
-
-section article div p {
-    color: #D9D9D9;
-    font-size: 20px;
-    margin: 20%;
-    margin-bottom: 10px;
-    margin-top: 0%;
-    text-align: justify;
-}
-
-.introduction{
-    margin-left: -235px;
-}
-
-section h2 {
-    width: 1050px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-}
-
-.partieDeux{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 150px;
-}
-
-.titrePetits{
-    width: 500px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: normal;
-}
-.articles{
-    background-color: #273D59;
-    border-radius: 60px;
-    width: 500px;
-    height: 1000px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-hr {
-    width: 700px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 1px solid black;
-}
-
-.separation{
-    width: 5px; 
-    height: 660px; 
-    background-color: #D9D9D9; 
-    border: none; 
-}
-
-div{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start ;
-    justify-content: space-around;
-    gap: 30px; 
-}
-section div div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    
-}
-section div div article{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-section div div article div{
-    background-color: #F2911B;
-    width: auto;
-    height: 160px;
-    gap: 10px;
-    
-}
-section div div article h3{
-    background-color: #F2911B;
-    border-radius: 60px;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: bold;
-}
-
-section div div article div p{
-    color: black;
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-section .deroulement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.versus{
-    width: 80px;
-    height: auto;
-}
-
-.vainqueur{
-    width: 200px;
-    background-color: #BDF9A9;
-    color: black;
-    text-align: center;
-
-}
-
-.vaincu{
-    width: 200px;
-    background-color: #F57D74;
-    color: black;
-    text-align: center;
-
-}
-
-section div article div{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-}
-section div article div div{
-    background-color: transparent;
-    display: flex;
-    gap: 0px;
-    
-}
-    
-    
-.compet{
-    width: auto;
-    height: auto;
-}
-figure figcaption{
-    background-color: #F2911B;
-    font-weight: bold;
-    text-align: center;
-    
-}
-
-div article figure img{
-    width: 200px;
-    height: 200px;
-    
-    
-}
-
-.tour{
-    background-color: #273D59;
-    height: auto;
-    width: 500px;
-    color: #D9D9D9;
-}
-section div article div div p{
-    color: black;
-    
-    text-align: justify;
-}
-.separe{
-    display: flex;
-    gap: 100px;
-}
-
-
-
-
-/* Footer */
-footer {
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    
-
-}
-footer button {
-    display: flex;
-    background-color: #273D59;
-    border-radius: 30px;
-    width: 578px;
-    height: 70px;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-/* Petit écran (moins de 768px) */
-@media (max-width: 479px) {
-    body{
-        width: auto;
-    }
-    section h1, section h2, section article h2, .titrePetits {
-        width: 90%;
-        font-size: 1.2em;
-    }
-    section article div {
-        
-        width: 80%;
-        height: auto;
-    }
-     .articles {
-        width: 80%;
-        height: 100%;
-    }
-    .partieDeux {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    section div article div {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end;
-        width: 100%;
-        gap: 0;
-    }
-    section div article div div {
-        width: 100%;
-    }
-    section div article div div p {
-        font-size: 0.8em;
-        width: 100%;
-    }
-    .vaincu, .vainqueur {
-        font-size: 0.8em;
-        width: 100%;
-    }
-    .tour {
-        width: 90%;
-    }
-   
-    .separation {
-        display: none;
-    }
-    hr{
-        width: 90%;
-        font-weight: bold;
-    }
-    .versus {
-        width: 50px;
-    }
-    img{
-        width: 200px;
-        
-    }
-    figure{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: flex-start;
-    }
-    figure figcaption p{
-        font-size: 5px;
-    }
-    div article figure img {
-        width: 50px;
-        height: 50px;
-    }
-    div{
-        display: flex;
-        flex-direction: column;
-        
-        gap: 30px;
-    }
-    .deroulement .articles{
-        width: 90%;
-    }
-    section div div article{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 90%;
-        gap: 30px;
-    }
-    .imageMatch2, .imageMatch3{
-        display: none;
-    }
-}
-
-
-
-
-/**********/
-/* Footer */
-/**********/
-footer {
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-footer button {
-    display: flex;
-    background-color: #273D59;
-    border-radius: 20px;
-    width: 578px;
-    height: 70px;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-footer img{
-    width: 65px;
-    height: 72px;
-}
-
-
-
-
-
-
-
-
-
-/***************************************/
-/*Media query Titouan + FOOTER / HEADER*/
-/***************************************/
-@media (max-width: 480px) {
-    #body{ 
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;}
-    
-    header{
-        background-color: #F2EFDF;
-        height: 130px;
-        width: 480px;
-    }
-    
-    header div{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 3em;
-    }
-    
-    header div section{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height:2em;
-    }
-    #boutons_gauche{
-        width: 33%;
-        padding:5px;
-    }
-    #boutons_droite{
-        width: 66%;
-        justify-content: space-between;
-    }
-    #images_container{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        padding-top: 2em;
-    }
-    
-    #images_container img{
-        width: auto;
-        height: 60px;
-    }
-    
-    a {
-        background-color: #273D59;
-        border-radius: 30px;
-        color: #F2EFDF;
-        width: 105px;
-        height: 40%; 
-        padding: 1em;
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        margin: 15px;
-        gap:5px;
-    }
-    
-    a img {
-        width: auto;
-        height: 25px;
-        margin-right: 10px; 
-    }
-    .med{display: none;}
-    #sites{display: none;}
-    
-    
-    
-    /*Corps de la page*/
 
     #sportif {
         display: flex;
@@ -1762,7 +1165,6 @@ footer img{
         display: none; 
     }
 
-
     #sportif .médailles {
         display: flex;
         flex-direction: column;
@@ -1787,309 +1189,7 @@ footer img{
         height: 200px;
         border-radius: 30px;
     }
-    
 
-
-
-    /*Footer de la page*/
-    footer {
-        background-color: #F2EFDF;
-        width: 480px; 
-        height: 5em;
-        box-sizing: border-box; 
-    }
-
-    footer a {
-        height: 10%;
-        width: 10%; 
-        padding: 10%; 
-        font-size: 1em; 
-        border-radius: 20px; 
-
-    }
-    #logo_jo{
-        width: 40px;
-        height: 40px;
-    }
-}
-
-
-/*Célestin CECILIEN*/
-#main_epreuve body {
-    background-color: #80A7BF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    }
-
-#main_epreuve section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-    }
-#main_epreuve section article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    gap: 20px;
-    }
-#main_epreuve div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    }
-
-#main_epreuve section h1 {
-    width: 1050px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-    line-height: 50px;
-    
-}
-    
-#main_epreuve section article h2{
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    width: 770px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: normal;
-    
-}
-
-#main_epreuve .deroulement {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#main_epreuve section article div {
-    background-color: #273D59;
-    border-radius: 60px;
-    width: 1000px;
-    height: 300px;
-    display: flex;
-    align-items: flex-start;
-}
-
-#main_epreuve section article div p {
-    color: #D9D9D9;
-    font-size: 20px;
-    margin: 20%;
-    margin-bottom: 10px;
-    margin-top: 0%;
-    text-align: justify;
-}
-
-#main_epreuve .introduction{
-    margin-left: -235px;
-}
-
-#main_epreuve section h2 {
-    width: 1050px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-}
-
-#main_epreuve .partieDeux{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 150px;
-}
-
-#main_epreuve .titrePetits{
-    width: 500px;
-    height: 50px;
-    background-color: #D9D9D9;
-    border-radius: 60px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: normal;
-}
-#main_epreuve .articles{
-    background-color: #273D59;
-    border-radius: 60px;
-    width: 500px;
-    height: 1000px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-#main_epreuve hr {
-    width: 700px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 1px solid black;
-}
-
-#main_epreuve .separation{
-    width: 5px; 
-    height: 500px; 
-    background-color: #D9D9D9; 
-    border: none; 
-}
-#main_epreuve .span-replacement {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    gap: 30px;
-}
-
-#main_epreuve section div div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    
-}
-#main_epreuve section div div article{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-#main_epreuve section div div article div{
-    background-color: #F2911B;
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: 160px;
-    gap: 10px;
-    
-}
-#main_epreuve section div div article h3{
-    background-color: #F2911B;
-    border-radius: 60px;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: bold;
-}
-
-#main_epreuve section div div article div p{
-    color: black;
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-#main_epreuve section .deroulement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#main_epreuve .versus{
-    width: 80px;
-    height: auto;
-}
-
-#main_epreuve .vainqueur{
-    width: 200px;
-    background-color: #BDF9A9;
-    color: black;
-    text-align: center;
-
-}
-
-#main_epreuve .vaincu{
-    width: 200px;
-    background-color: #F57D74;
-    color: black;
-    text-align: center;
-
-}
-
-#main_epreuve .match-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-color: transparent;
-}
-#main_epreuve section div article div div{
-    background-color: transparent;
-    display: flex;
-    gap: 0px;
-    
-}
-#main_epreuve figure img{
-    width: 200px;
-    height: 200px;   
-}
-
-#main_epreuve .compet{
-    width: auto;
-    height: auto;
-}
-
-#main_epreuve .img_date{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-#main_epreuve figcaption{
-    background-color: #F2911B;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    
-}
-#main_epreuve section div div article div figure{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-
-#main_epreuve .tour{
-    background-color: #273D59;
-    height: auto;
-    width: 500px;
-    color: #D9D9D9;
-}
-#main_epreuve section div article div div p{
-    color: black;
-    
-    text-align: justify;
-}
-#main_epreuve .separe{
-    display: flex;
-    gap: 100px;
-}
-
-
-
-
-
-/* Petit écran (moins de 768px) */
-@media (max-width: 479px) {
     #main_epreuve body{
         width: auto;
         
@@ -2226,4 +1326,163 @@ footer img{
         justify-content: center;
         gap: 10px;
     }
+
+    #accueil #tabchiffres section {
+        width: 100%; /* Adjust section width for smaller screens */
+        width: 620px;
+    }
+
+    #accueil #tabchiffres section table {
+        width: 620px; /* Adjust table width for smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    #accueil #tabchiffres section td {
+        font-size: medium; /* Adjust font size for better readability */
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    #accueil #tabchiffres section th {
+        font-size: medium; /* Adjust font size for better readability */
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    #accueil table img {
+        width: 30px; /* Adjust image size for smaller screens */
+    }
+    #accueil body {
+        flex-direction: column;
+    }
+
+    #accueil #Presentationjeu {
+        width: 600px; /* Adjust width for smaller screens */
+    }
+
+    #accueil #Actualite {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #accueil #Actualite figure {
+        width: 600px; /* Adjust width for smaller screens */
+    }
+    #accueil #tabchiffres {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #accueil #paralympiques {
+        width: 600px; /* Adjust width for smaller screens */
+        
+    }
+    #accueil #paralympiques div {
+        flex-direction: column;
+    }
+    #accueil #cat div {
+        flex-direction: column;
+        width: 600px; 
+    }
+    #accueil #cat div div img {
+        width: 580px; /* Adjust image size */
+    }
+    #accueil #sponsors img {
+        width: 80px; /* Adjust image size */
+    }
+    #accueil #sponsors {
+        width: 620px;
+        flex-wrap: wrap;
+        
+    }
+
+    #body{ 
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;}
+    
+    header{
+        background-color: #F2EFDF;
+        height: 130px;
+        width: 480px;
+    }
+    
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 3em;
+    }
+    
+    header div section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:2em;
+    }
+    #boutons_gauche{
+        width: 33%;
+        padding:5px;
+    }
+    #boutons_droite{
+        width: 66%;
+        justify-content: space-between;
+    }
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    
+    #images_container img{
+        width: auto;
+        height: 60px;
+    }
+    
+    a {
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 105px;
+        height: 40%; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+        gap:5px;
+    }
+    
+    a img {
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+    .med{display: none;}
+    #sites{display: none;}
+    
+  
+    /*Footer de la page*/
+    footer {
+        background-color: #F2EFDF;
+        width: 480px; 
+        height: 5em;
+        box-sizing: border-box; 
+    }
+
+    footer a {
+        height: 10%;
+        width: 10%; 
+        padding: 10%; 
+        font-size: 1em; 
+        border-radius: 20px; 
+
+    }
+    #logo_jo{
+        width: 40px;
+        height: 40px;
+    }
+
 }
