@@ -1,463 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="acceuil" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="LEOstyle.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div>
 
-body {
-    background-color: #80A7BF;
-}
-main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #80A7BF;
-    width: 100%;
-    }
-h2{
-    font-size:x-large;
-    color: #273D59;
-    }
+            <a href="accueil.html" ><img src="images/accueil_icone.png" alt="Icone accueil" title="Icone accueil">Accueil</img></a>
 
-#Presentationjeu{
-    height: auto;
-    background-color: #80A7BF;
-    color: #F2EFDF;
-    border-radius: 0.5em;
-    margin: 1%;
-    justify-content: center;
-    border :black double 1px ;
-    margin: 20px;
-    padding: 5px;
+            <section id="images_container">
+                <img class="med" src="images/—Pngtree—vector color gold and silver_2974157.png" alt="Image type médailles" title="Type médailles"></img>
+                <img  src="images/Logo_jo.png" alt="Logo des Jeux de paris 2024" title="Logo des jeux de Paris 2024"></img>
+                <img class="med" src="images/—Pngtree—vector color gold and silver_2974157.png" alt="Image type médailles" title="Type médailles"></img>
+            </section>
+            <a href="sportif.html" ><img src="images/athlète_icone.png" alt="Icone athlète" title="Icone athlète">Athlètes</img></a>
+        </div>
+        <div>
+            <section id = "boutons_gauche">
+                <a id="sites" href="https://olympics.com/fr/paris-2024/sites" ><img src="images/sites_olympiques_icone.png" alt="Icone sites olympiques" title="Icone sites olympiques">Sites Olympiques</img></a>
+                <a href="discipline.html" ><img src="images/discipline_icone.png" alt="Icone discipline" title="Icone discipline">Disciplines</img></a>
+            </section>
+            <section id = "boutons_droite">
+                <a href="epreuve.html" ><img src="images/épreuves_icone.png" alt="Icone épreuve" title="Icone épreuve">Epreuves</img></a>
+                <a href="https://olympics.com/fr/sports/paralympic/" ><img src="images/paralympique_icone.png" alt="Icone Paralympiques" title="Icone Paralympiques">Paralympiques</img></a>
+            </section>
+        </div>
+    </header>
+<main>
+<article id="Presentationjeu">
+        <h2>Présentation des jeux Olympiques</h2>
+        <p>Les Jeux olympiques d'été de 2024, officiellement appelés les Jeux de la XXXIIIe olympiade de l'ère moderne, sont un événement sportif international prévu pour 2024. Les Jeux devraient se dérouler à Paris, en France, pour la troisième fois, après les Jeux de 1900 et 1924. La ville de Los Angeles, aux États-Unis, accueillera les Jeux olympiques d'été de 2028.</p></article>
+</article>
 
-}
-#Presentationjeu h2{
-    color: #F2EFDF;
-    text-align: center;
-    }
+<article id="Actualite">
+    <figure>
+        <img src="images/natation_actu.avif" alt="actu1" title="actu1" >
+        <p>Finale 400m 4 nages (H) | Natation | Jeux Olympiques de Paris 2024</p>
+    </figure>
+    <figure>
+        <img src="images/judo_actu.avif" alt="actu1" title="actu1" >
+        <p>Finales par équipe mixte | Judo | Jeux Olympiques de Paris 2024</p>
+    </figure>
+    <figure>
+        <img src="images/triathlon.avif" alt="actu1" title="actu1" >
+         <p>Triathlon (F) | Jeux Olympiques de Paris 2024</p>
+    </figure>
+</article>
 
-#Actualite{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
+<section id="tabchiffres">
 
-#Actualite figure{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    background-color: #273D59;
-    color: #F2EFDF;
-    width: 32%;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 5px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-#Actualite figure img{
-width: 250px;
-height: auto;
-border-radius: 0.5em;
-}
-figure:hover {
-    transform: scale(1.03); /* Agrandit l'élément */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajoute un effet d'ombre */
-}
+<article>
+    <h2>Chiffres importants de ces Jo</h2>
+    <div>
+        <p>850<br>médailles</p><br>
+        <p>45 000<br>Volontaires</p><br>
+        <p>10<br>record du monde</p><br>
+        <p>9,5 M<br>billets vendus</p>
+    </div>
+</article>
+<section>
+        <h2>Tableau des Médailles des JO 2024</h2>
+            <table>
+                <thead>
+                    <tr >
+                        <th></th>
+                        <th></th>
+                        <th><img src="images/or" alt="médaille d'or"></th>
+                        <th><img src="images/argent" alt="médaille argent"></th>
+                        <th><img src="images/bronze" alt="médaille bronze"></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td style="background-color: #FCDB8C;"> 1</td>
+                        <td>États-Unis</td>
+                        <td id="fondbleu">40</td>
+                        <td id="fondbleu">44</td>
+                        <td id="fondbleu">42</td>
+                        <td>126</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #C0C0C0;"> 2</td>
+                        <td>Chine</td>
+                        <td id="fondbleu">40</td>
+                        <td id="fondbleu">27</td>
+                        <td id="fondbleu">24</td>
+                        <td>91</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #8B4513;"> 3</td>
+                        <td>Japon</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td> 4</td>
+                        <td>Australie</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>16</td>
+                        <td>53</td>
+                    </tr>
+                    <tr>
+                        <td> 5</td>
+                        <td>France</td>
+                        <td>16</td>
+                        <td>26</td>
+                        <td>22</td>
+                        <td>64</td>
+                    </tr>
+                    <tr>
+                        <td> 6</td>
+                        <td>Pays-Bas</td>
+                        <td>15</td>
+                        <td>7</td>
+                        <td>12</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td> 7</td>
+                        <td>Grande-Bretagne</td>
+                        <td>14</td>
+                        <td>22</td>
+                        <td>29</td>
+                        <td>65</td>
+                    </tr>
+                    <tr>
+                        <td> 8</td>
+                        <td>République de Corée</td>
+                        <td>13</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td> 9</td>
+                        <td>Italie</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Allemagne</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>8</td>
+                        <td>33</td>
+                    </tr>
+                </tbody>
+            </table>
+</section>
+</section>
+<article id="paralympiques">
+    <h2>Présentation des épreuves paralympiques</h2>
+    <div>
+        <img src="images/para.jpeg" alt="actu1" title="actu1" >
+        <p>Les Jeux paralympiques d'été de 2024, officiellement appelés les Jeux de la XVIe olympiade de l'ère moderne, sont un événement sportif international prévu pour 2024. Les Jeux devraient se dérouler à Paris, en France, pour la troisième fois, après les Jeux de 1900 et 1924. La ville de Los Angeles, aux États-Unis, accueillera les Jeux olympiques d'été de 2028.</p>
+    </div>
+</article>
+<section id="cat">
+    <h2>Catégories des épreuves Olympiques</h2>
+    <div>
+        <div>
+            <h3>Sports de combat</h3>
+            <p>Un sport de combat appartient à une famille d'activités sportives proposant le plus souvent sous forme compétitive un affrontement entre deux combattants, qualifié de combat ou parfois de duel.</p>
+            </a>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>taekwondo</li>
+                <li>judo</li>
+                <li>Boxe</li>
+                <li>Lutte</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/combat.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Course</h3>
+            <p>La course à pied est un sport qui consiste à courir sur une certaine distance. Elle est souvent pratiquée dans un but de compétition, de loisir ou de santé. </p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>100m     -800m</li>
+                <li>200m    -1500m</li>
+                <li>110m haies (H)  -400m haies</li>
+                <li>100m haies (F)  -3000m steeple</li>
+                <li>400m    -5000m</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/course.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Saut</h3>
+        <p>Le saut est une épreuve d'athlétisme dans laquelle l'athlète doit parcourir la plus grande distance par un saut soit horizontal dans le cas du saut en longueur et du triple saut . </p>       
+     </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>saut à la perche</li>
+                <li> saut en hauteur </li>
+                <li> saut en longueur </li>
+                <li> triple saut </li>
+                <li> saut à la perche </li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/saut.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Cyclisme</h3>
+        <p>Le cyclisme recouvre plusieurs notions concernant la bicyclette : il est d'abord une activité quotidienne pour beaucoup, un loisir pour d'autres</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>BMX freestyle</li>
+                <li>BMX racing</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/cyclisme ville.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Cyclisme sur piste</h3>
+        <p>Le cyclisme sur piste est une pratique sportive regroupant plusieurs épreuves et se déroulant sur un vélodrome. Il se pratique toujours sur des vélos à pignons fixes . </p> 
+       </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Vitesse</li>
+                <li>Vitesse par équipes</li>
+                <li>Keirin</li>
+                <li>Poursuite par équipes</li>
+                <li>Madison</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/cyclisme.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Gymnastique artistique</h3>
+        <p>La gymnastique artistique est une discipline athlétique consistant à enchaîner des mouvements acrobatiques sur des agrès. On distingue la gymnastique artistique masculine et la gymnastique artistique féminine. </p>      
+         </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>poutre</li>
+                <li>anneaux</li>
+                <li>barres asymétriques</li>
+                <li>saut de cheval</li>
+                <li>sol</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/gym.jpg" alt="actu1" title="actu1" >
+        </div>
 
-#tabchiffres{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#tabchiffres article div{
-    background-color: #273D59;
-    color: #F2EFDF;
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size:xx-large;
-    border-color: black;
-    width: 350px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-content:end;
-    margin-bottom: 10px;
-    margin-top: 90px;
-    padding-top: 10px;
-    padding-bottom:10px ;
-}
+    </div>
+    <div>
+        <div>
+            <h3>Sports Co</h3>
+            <p>Un sport collectif est un sport opposant deux équipes dont les membres coopèrent pour atteindre un objectif commun.</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Volleyball -Rugby à 7</li>
+                <li>Volleyball de plage -Handball</li>
+                <li>Basketball -Football</li>
+                <li>Basketball 3x3 -Hockey sur gazon</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/sportco.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>natation vitesse </h3>
+            <p>La natation est un sport consistant à nager dans l'eau, en général pour des compétitions sportives individuelles ou en équipe.</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>50m</li>
+                <li>100m</li>
+                <li>400m</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/natation.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Sports d'eau</h3>
+            <p>Les sports aquatiques sont des sports qui se pratiquent dans l'eau, comme la natation, la plongée ou l'aquagym. C'est votre corps qui vous permet d'avancer ou de faire les mouvements.</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Kayak monoplace</li>
+                <li>Canoë monoplace</li>
+                <li>Kayak cross (à détailler...)</li>
 
-#tabchiffres section {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 1000px;
-}
-#tabchiffres section table {
-    width: 1000px;
-    height: 700px;
-    border-collapse: collapse;
-}
-    
-#tabchiffres section td {
-    background-color: #F2EFDF; /* Set background color to white */
-    color: #273D59; /* Set text color to black for better readability */
-    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
-    text-align: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: large;
-}
-#tabchiffres section td:nth-child(3),
-#tabchiffres section td:nth-child(4),
-#tabchiffres section td:nth-child(5) {
-    background-color: #273D59;
-    color: #F2EFDF; /* Optional: Change text color for better readability */
-}
-    
-#tabchiffres section th {
-    background-color: #80A7BF; /* Keep header background color as is */
-    color: #F2EFDF; /* Keep header text color as is */
-    height: 50px;
-}
-table img {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-#tabchiffres section h2 {
-    text-align: center;
-}
+            </ol>
+        </div>
+        <div>
+            <img src="images/eau.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Sports de glisse</h3>
+            <p>Les sports de glisse sont des sports qui se pratiquent sur l'eau, la neige ou la glace. Ils sont souvent associés à des sensations
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Surf</li>
+                <li>Skateboard Street</li>
+                <li>Skateboard Park</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/surf.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Equitation</h3>
+            <p>L'équitation est l'art de monter à cheval. C'est un sport qui se pratique en extérieur ou en intérieur, en compétition ou en lo
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Saut d'obstacles</li>
+                <li>Dressage</li>
+                <li>Concours complet</li>
 
-#paralympiques{
-    width: 1400px;
-    margin: 20px;
-    margin-top: 0px;
-}
-#paralympiques div{
-    background-color: #F2EFDF;
-    border-radius: 0.5em;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-#paralympiques div img{
-        width: 190px;
-        height: auto;
-        border-radius: 0.5em;
-}
-#paralympiques div p{
-        margin: 20px;
-}
+            </ol>
+        </div>
+        <div>
+            <img src="images/equitation.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Escrime</h3>
+            <p>L'escrime est un sport de combat qui oppose deux adversaires armés d'une arme blanche</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>Fleuret</li>
+                <li>Épée</li>
+                <li>Sabre</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/escrime.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Sports de raquette</h3>
+            <p>Un sport de raquette est un sport qui se pratique avec une raquette et une balle ou un volant.</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>tennis</li>
+                <li>badminton</li>
+                <li>tennis de table</li>
 
-#cat {
-    margin: 20px;
+            </ol>
+        </div>
+        <div>
+            <img src="images/tenis.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>multiSports</h3>
+            <p>Un sport multi-disciplinaire est un sport qui regroupe plusieurs disciplines sportives différentes.</p>
+        </div>
+        <div>
+            <h4>Discipline</h4>
+            <ol>
+                <li>décathlon (H)</li>
+                <li>heptathlon (F)</li>
+                <li>pentathlon moderne</li>
 
-}
-#cat div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    background-color: #F2911B;
-    border-radius: 1em;
-    width: 1400px;
-    margin-bottom: 20px;
-}
-#cat div div{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-#cat div div img{
-    width: 570px;
-    height: 200px;
-    border-radius: 1em;
+            </ol>
+        </div>
+        <div>
+            <img src="images/multi.jpg" alt="actu1" title="actu1" >
+        </div>
+    </div>
+</section>
+<section id="sponsors">
+    <h2>Sponsors des JO 2024</h2>
+    <div>
+        <img src="images/sponsor1.jpg" alt="actu1" title="actu1" >
+        <img src="images/sponsor2.jpeg" alt="actu1" title="actu1" >
+        <img src="images/sponsor3.jpg" alt="actu1" title="actu1" >
+        <img src="images/sponsor4.jpeg" alt="actu1" title="actu1" >
+        <img src="images/sponsor5.png" alt="actu1" title="actu1" >
+        </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <a href="https://olympics.com/cio/proprietes-olympiques" >Mentions légales</a>
 
-}
-#cat div div ol{
-    list-style-type: none;
-}
-#tabchiffres section table tbody tr td:nth-child(2):hover {
-    background-color: #273D59; /* Color for États-Unis */
-    color: #F2EFDF;
-}
-#tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
-    background-color: #FCDB8C; /* Color for États-Unis */
-    color: #273D59;
-}
+    <img src="images/Logo_jo.png" alt="Logo JO 2024" title="Logo JO 2024" id="logo_jo"></img>
 
-#tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
-    background-color: #C0C0C0; /* Color for Chine */
-    color: #273D59;
-}
-#tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
-    background-color: #8B4513; /* Color for Chine */
-    color: #273D59;
-}
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
-/* Maintain aspect ratio */
+    <a href="https://olympics.com/cio/celebrer-les-jeux-olympiques" >A propros</a>
 
-
-#sponsors img {
-    width: 125px;
-    height: auto;
-    margin: 10px;
-    border-radius:  50%;
-}
-#sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-direction: column;
-}
-
-/* Media queries for mobile devices */
-@media screen and (min-width: 480px) and (max-width: 680px) {
-    #tabchiffres section {
-        width: 100%; /* Adjust section width for smaller screens */
-        width: 620px;
-    }
-
-    #tabchiffres section table {
-        width: 620px; /* Adjust table width for smaller screens */
-        height: auto; /* Adjust height for smaller screens */
-    }
-
-    #tabchiffres section td {
-        font-size: medium; /* Adjust font size for better readability */
-        padding: 5px; /* Adjust padding for smaller screens */
-    }
-
-    #tabchiffres section th {
-        font-size: medium; /* Adjust font size for better readability */
-        height: auto; /* Adjust height for smaller screens */
-    }
-
-    table img {
-        width: 30px; /* Adjust image size for smaller screens */
-    }
-    body {
-        flex-direction: column;
-    }
-
-    #Presentationjeu {
-        width: 600px; /* Adjust width for smaller screens */
-    }
-
-    #Actualite {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-    #Actualite figure {
-        width: 600px; /* Adjust width for smaller screens */
-    }
-    #tabchiffres {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: auto;
-    }
-
-    #paralympiques {
-        width: 600px; /* Adjust width for smaller screens */
-        
-    }
-    #paralympiques div {
-        flex-direction: column;
-    }
-    #cat div {
-        flex-direction: column;
-        width: 600px; 
-    }
-    #cat div div img {
-        width: 580px; /* Adjust image size */
-    }
-    #sponsors img {
-        width: 80px; /* Adjust image size */
-    }
-    #sponsors {
-        width: 620px;
-        flex-wrap: wrap;
-        
-    }
-    /* Header */
-    header{
-        background-color: #F2EFDF;
-        height: 12em;
-        width: 100%;
-    }
-    
-    header div{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 2em;
-    }
-    
-    header div section{
-        display: flex;
-        flex-direction: row;
-        height: 2em;
-    }
-
-    #boutons_gauche a, #boutons_droite a{
-        width: 4.7em;
-    }
-
-    #images_container{
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        padding-top: 2em;
-    }
-    
-    #images_container img{
-        width: auto;
-        height: 60px;
-    }
-    
-    header a,footer a{
-        background-color: #273D59;
-        border-radius: 30px;
-        color: #F2EFDF;
-        width: 25%;
-        height: 40%; 
-        padding: 1em;
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        margin: 15px;
-        gap:5px;
-    }
-    
-    header a img,footer a img{
-        width: auto;
-        height: 25px;
-        margin-right: 10px; 
-    }
-
-    .med{
-        display: none;
-    }
-
-    #sites{
-        display: none;
-    }
-    
-    /* Footer */
-    footer{
-        background-color: #F2EFDF;
-        width: 100%; 
-        height: 5em;
-        box-sizing: border-box; 
-        display: flex;
-        justify-content: space-between;
-    }
-
-    footer a{
-        display: flex;
-        background-color: #273D59;
-        justify-content: center;
-        align-items: center; 
-        color: #D9D9D9;
-        margin: 5px;
-        width: 20%;
-        height: 20%;
-        font-size: 1em; 
-        border-radius: 20px; 
-        text-align: center;
-    }
-
-    #logo_jo{
-        width: 65px;
-        height: 72px;
-    }
-}
-
- /* Header */
- header{
-    background-color: #F2EFDF;
-}
-
-header div{
-    display: flex;
-    flex-direction: row;
-    width: 98%;
-    height: 5em;
-}
-
-header div section{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10em;
-}
-
-#boutons_droite{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#images_container{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding-top: 2em;
-}
-
-#images_container img{
-    width: auto;
-    height: 80%;
-}
-
-header a,footer a{
-    background-color: #273D59;
-    border-radius: 30px;
-    color: #F2EFDF;
-    width: 13em;
-    height: 2em; 
-    padding: 1em;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 15px;
-}
-
-header a img,footer a img{
-    width: auto;
-    height: 25px;
-    margin-right: 10px; 
-}
-
-/* Footer */
-footer{
-    background-color: #F2EFDF;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-footer a{
-    display: flex;
-    background-color: #273D59;
-    border-radius: 20px;
-    width: 30%;
-    height: 70%;
-    justify-content: center;
-    align-items: center; 
-    color: #D9D9D9;
-    margin: 5px;
-}
-
-footer img{
-    width: 65px;
-    height: 72px;
-}
+</footer>
+</body>
+</html>
