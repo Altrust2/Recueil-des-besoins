@@ -1,0 +1,463 @@
+
+body {
+    background-color: #80A7BF;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #80A7BF;
+    width: 100%;
+    }
+h2{
+    font-size:x-large;
+    color: #273D59;
+    }
+
+#Presentationjeu{
+    height: auto;
+    background-color: #80A7BF;
+    color: #F2EFDF;
+    border-radius: 0.5em;
+    margin: 1%;
+    justify-content: center;
+    border :black double 1px ;
+    margin: 20px;
+    padding: 5px;
+
+}
+#Presentationjeu h2{
+    color: #F2EFDF;
+    text-align: center;
+    }
+
+#Actualite{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 1400px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#Actualite figure{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    background-color: #273D59;
+    color: #F2EFDF;
+    width: 32%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#Actualite figure img{
+width: 250px;
+height: auto;
+border-radius: 0.5em;
+}
+figure:hover {
+    transform: scale(1.03); /* Agrandit l'élément */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ajoute un effet d'ombre */
+}
+
+#tabchiffres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1400px;
+    margin: 20px;
+    margin-top: 0px;
+}
+#tabchiffres article div{
+    background-color: #273D59;
+    color: #F2EFDF;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size:xx-large;
+    border-color: black;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content:end;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+#tabchiffres section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1000px;
+}
+#tabchiffres section table {
+    width: 1000px;
+    height: 700px;
+    border-collapse: collapse;
+}
+    
+#tabchiffres section td {
+    background-color: #F2EFDF; /* Set background color to white */
+    color: #273D59; /* Set text color to black for better readability */
+    border: 10px solid #80A7BF; /* Optional: Add border for better separation */
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: large;
+}
+#tabchiffres section td:nth-child(3),
+#tabchiffres section td:nth-child(4),
+#tabchiffres section td:nth-child(5) {
+    background-color: #273D59;
+    color: #F2EFDF; /* Optional: Change text color for better readability */
+}
+    
+#tabchiffres section th {
+    background-color: #80A7BF; /* Keep header background color as is */
+    color: #F2EFDF; /* Keep header text color as is */
+    height: 50px;
+}
+table img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+#tabchiffres section h2 {
+    text-align: center;
+}
+
+#paralympiques{
+    width: 1400px;
+    margin: 20px;
+    margin-top: 0px;
+}
+#paralympiques div{
+    background-color: #F2EFDF;
+    border-radius: 0.5em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#paralympiques div img{
+        width: 190px;
+        height: auto;
+        border-radius: 0.5em;
+}
+#paralympiques div p{
+        margin: 20px;
+}
+
+#cat {
+    margin: 20px;
+
+}
+#cat div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #F2911B;
+    border-radius: 1em;
+    width: 1400px;
+    margin-bottom: 20px;
+}
+#cat div div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+#cat div div img{
+    width: 570px;
+    height: 200px;
+    border-radius: 1em;
+
+}
+#cat div div ol{
+    list-style-type: none;
+}
+#tabchiffres section table tbody tr td:nth-child(2):hover {
+    background-color: #273D59; /* Color for États-Unis */
+    color: #F2EFDF;
+}
+#tabchiffres section table tbody tr:nth-child(1) td:nth-child(2):hover {
+    background-color: #FCDB8C; /* Color for États-Unis */
+    color: #273D59;
+}
+
+#tabchiffres section table tbody tr:nth-child(2) td:nth-child(2):hover {
+    background-color: #C0C0C0; /* Color for Chine */
+    color: #273D59;
+}
+#tabchiffres section table tbody tr:nth-child(3) td:nth-child(2):hover {
+    background-color: #8B4513; /* Color for Chine */
+    color: #273D59;
+}
+/* Maintain aspect ratio */
+/* Maintain aspect ratio */
+/* Maintain aspect ratio */
+
+
+#sponsors img {
+    width: 125px;
+    height: auto;
+    margin: 10px;
+    border-radius:  50%;
+}
+#sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Media queries for mobile devices */
+@media screen and (min-width: 480px) and (max-width: 680px) {
+    #tabchiffres section {
+        width: 100%; /* Adjust section width for smaller screens */
+        width: 620px;
+    }
+
+    #tabchiffres section table {
+        width: 620px; /* Adjust table width for smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    #tabchiffres section td {
+        font-size: medium; /* Adjust font size for better readability */
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    #tabchiffres section th {
+        font-size: medium; /* Adjust font size for better readability */
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    table img {
+        width: 30px; /* Adjust image size for smaller screens */
+    }
+    body {
+        flex-direction: column;
+    }
+
+    #Presentationjeu {
+        width: 600px; /* Adjust width for smaller screens */
+    }
+
+    #Actualite {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #Actualite figure {
+        width: 600px; /* Adjust width for smaller screens */
+    }
+    #tabchiffres {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #paralympiques {
+        width: 600px; /* Adjust width for smaller screens */
+        
+    }
+    #paralympiques div {
+        flex-direction: column;
+    }
+    #cat div {
+        flex-direction: column;
+        width: 600px; 
+    }
+    #cat div div img {
+        width: 580px; /* Adjust image size */
+    }
+    #sponsors img {
+        width: 80px; /* Adjust image size */
+    }
+    #sponsors {
+        width: 620px;
+        flex-wrap: wrap;
+        
+    }
+    /* Header */
+    header{
+        background-color: #F2EFDF;
+        height: 12em;
+        width: 100%;
+    }
+    
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 2em;
+    }
+    
+    header div section{
+        display: flex;
+        flex-direction: row;
+        height: 2em;
+    }
+
+    #boutons_gauche a, #boutons_droite a{
+        width: 4.7em;
+    }
+
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    
+    #images_container img{
+        width: auto;
+        height: 60px;
+    }
+    
+    header a,footer a{
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 25%;
+        height: 40%; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+        gap:5px;
+    }
+    
+    header a img,footer a img{
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+
+    .med{
+        display: none;
+    }
+
+    #sites{
+        display: none;
+    }
+    
+    /* Footer */
+    footer{
+        background-color: #F2EFDF;
+        width: 100%; 
+        height: 5em;
+        box-sizing: border-box; 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer a{
+        display: flex;
+        background-color: #273D59;
+        justify-content: center;
+        align-items: center; 
+        color: #D9D9D9;
+        margin: 5px;
+        width: 20%;
+        height: 20%;
+        font-size: 1em; 
+        border-radius: 20px; 
+        text-align: center;
+    }
+
+    #logo_jo{
+        width: 65px;
+        height: 72px;
+    }
+}
+
+ /* Header */
+ header{
+    background-color: #F2EFDF;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 5em;
+}
+
+header div section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10em;
+}
+
+#boutons_droite{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#images_container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 2em;
+}
+
+#images_container img{
+    width: auto;
+    height: 80%;
+}
+
+header a,footer a{
+    background-color: #273D59;
+    border-radius: 30px;
+    color: #F2EFDF;
+    width: 13em;
+    height: 2em; 
+    padding: 1em;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 15px;
+}
+
+header a img,footer a img{
+    width: auto;
+    height: 25px;
+    margin-right: 10px; 
+}
+
+/* Footer */
+footer{
+    background-color: #F2EFDF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer a{
+    display: flex;
+    background-color: #273D59;
+    border-radius: 20px;
+    width: 30%;
+    height: 70%;
+    justify-content: center;
+    align-items: center; 
+    color: #D9D9D9;
+    margin: 5px;
+}
+
+footer img{
+    width: 65px;
+    height: 72px;
+}
