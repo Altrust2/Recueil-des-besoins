@@ -474,23 +474,30 @@ footer img{
 
 
     /*Footer de la page*/
-    footer {
+    footer{
         background-color: #F2EFDF;
         width: 480px; 
         height: 5em;
         box-sizing: border-box; 
+        display: flex;
+        justify-content: space-between;
     }
 
-    footer a {
-        height: 10%;
-        width: 10%; 
-        padding: 10%; 
+    footer a{
+        display: flex;
+        background-color: #273D59;
+        justify-content: center;
+        align-items: center; 
+        color: #D9D9D9;
+        margin: 5px;
+        width: 20%;
+        height: 20%;
         font-size: 1em; 
         border-radius: 20px; 
-
     }
+
     #logo_jo{
-        width: 40px;
-        height: 40px;
+        width: 65px;
+        height: 72px;
     }
 }
