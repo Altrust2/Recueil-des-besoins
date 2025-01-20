@@ -1,0 +1,503 @@
+@media screen and (min-width: 620px) {
+    body{
+        background-color: #80A7BF;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    main{
+        background-color: #80A7BF;
+        padding: 3em;
+    }
+
+    main ul img{
+        list-style: disc inside url(images/phryge-judo.jpg);
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    main article, h3, td, div, th{
+        padding: 1em;
+        font-size: 20px;
+    }
+
+    h3{
+        background-color: #F2EFDF;
+    }
+
+    #presentation h3, #presentation, #selection table, header li{
+        background-color: #273D59;
+        color: white;
+    }
+
+    h3, #presentation{
+        width: 50%;
+    }
+
+    #resume{
+        width: 44%;
+        background-color: #F2911B;
+        border-radius: 1%;
+    }
+
+    #explications{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 50%;
+    }
+
+    #presentation{
+        border-radius: 30px;
+    }
+
+    /* EPREUVES */
+    #epreuves table{
+        width: 100%;
+    }
+
+    #epreuves div{
+        float: right;
+    }
+
+    #epreuves table tr td{
+        background-color: #F2911B;
+        border: 10px solid #80A7BF;
+        width: 40%;
+        height: 40px;
+    }
+
+    #epreuves table tr{
+        margin: 10px;
+    }
+
+    /* SELECTION */
+    #selection section{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    #selection div{
+        background-color: #d9d9d9;
+        width: 47%;
+    }
+
+    #selection div img{
+        float: left;
+    }
+
+    #selection table{
+        width: 100%;
+        text-align: center;
+        height: 10em;
+    }
+
+    /* TABLEAU */
+    #tableau{
+        background-color: #80A7BF;
+        color: #273D59;
+        padding: 1%;
+        border-radius: 0.5em;
+        margin: 5px;
+        justify-content: center;
+        border-color: black;
+        width: 73%;
+        text-align: center;
+    }
+    
+    #tableau table {
+        width: 135%;
+        border-collapse: collapse;
+    }
+    
+    #tableau td {
+        background-color: #F2EFDF;
+        color: #273D59;
+        padding: 8px;
+        border: 10px solid #80A7BF;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: large;
+    }
+
+    #tableau td:nth-child(3),
+    #tableau td:nth-child(4),
+    #tableau td:nth-child(5) {
+        background-color: #273D59;
+        color: #F2EFDF;
+    }
+    
+    #tableau th {
+        background-color: #80A7BF;
+        color: #F2EFDF;
+    }
+
+    #tableau table tbody tr:nth-child(1) td:nth-child(1){
+        background-color: #FCD88C;
+    }
+
+    #tableau table tbody tr:nth-child(2) td:nth-child(1){
+        background-color: #c0c0c0;
+    }
+
+    #tableau table tbody tr:nth-child(3) td:nth-child(1){
+        background-color: #8b4513;
+    }
+
+    #tableau h2{
+        text-align: left;
+        color: black;
+    }
+
+    /* Header */
+    header{
+        background-color: #F2EFDF;
+    }
+
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 98%;
+        height: 5em;
+    }
+
+    header div section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10em;
+    }
+
+    #boutons_droite{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+
+    #images_container img{
+        width: auto;
+        height: 80%;
+    }
+
+    a{
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 13em;
+        height: 2em; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+    }
+
+    a img{
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+
+    /* Footer */
+    footer{
+        background-color: #F2EFDF;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer a{
+        display: flex;
+        background-color: #273D59;
+        border-radius: 20px;
+        width: 30%;
+        height: 70%;
+        justify-content: center;
+        align-items: center; 
+        color: #D9D9D9;
+        margin: 5px;
+    }
+
+    footer img{
+        width: 65px;
+        height: 72px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px){
+    h1{
+        text-align: center;
+    }
+    
+    main{
+        background-color: #80A7BF;
+
+    }
+    
+    main ul{
+        list-style: none;
+    }
+    
+    main article, h3, td, div, th{
+        padding: 1em;
+        font-size: 20px;
+    }
+    
+    h3{
+        background-color: #F2EFDF;
+    }
+    
+    #presentation h3, #presentation, #selection table, header li{
+        background-color: #273D59;
+        color: white;
+    }
+    
+    h3, #presentation, #resume{
+        width: 90%;
+    }
+    
+    #resume{
+        background-color: #F2911B;
+    }
+    
+    /* EPREUVES */
+    #epreuves table{
+        width: 100%;
+    }
+    
+    #epreuves div{
+        float: right;
+    }
+    
+    #epreuves table tr td{
+        background-color: #F2911B;
+        border: 10px solid #80A7BF;
+        width: 40%;
+        height: 40px;
+    }
+    
+    #epreuves table tr{
+        margin: 10px;
+    }
+
+    #epreuves table tr td{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #epreuves table tr td::nth-word(3){
+        display:none;
+    }
+    
+    /* SELECTION */
+    #selection div{
+        background-color: #d9d9d9;
+        width: 90%;
+    }
+    
+    #selection div img{
+        float: left;
+    }
+    
+    #selection table{
+        width: 100%;
+        text-align: center;
+        height: 10em;
+    }
+    
+    /* TABLEAU */
+    #tableau{
+        background-color: #80A7BF;
+        color: #273D59;
+        padding: 1%;
+        border-radius: 0.5em;
+        margin: 5px;
+        justify-content: center;
+        border-color: black;
+        width: 73%;
+        text-align: center;
+    }
+       
+    #tableau table {
+        width: 130%;
+        border-collapse: collapse;
+    }
+       
+    #tableau td {
+        background-color: #F2EFDF;
+        color: #273D59;
+        padding: 8px;
+        border: 10px solid #80A7BF;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: large;
+    }
+    
+    #tableau td:nth-child(1) {
+        display: none;
+    }
+
+    #tableau td:nth-child(3),
+    #tableau td:nth-child(4),
+    #tableau td:nth-child(5) {
+        background-color: #273D59;
+        color: #F2EFDF;
+    }
+       
+    #tableau th {
+        background-color: #80A7BF;
+        color: #F2EFDF;
+    }
+    
+    #tableau table tbody tr:nth-child(1) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(3){
+        background-color: #F2911B;
+    }
+    
+    #tableau table tbody tr:nth-child(2) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+        background-color: #c0c0c0;
+    }
+    
+    #tableau table tbody tr:nth-child(3) td:nth-child(2), 
+    #tableau table tbody tr:nth-child(1) td:nth-child(5){
+        background-color: #8B4513;
+    }
+
+    #tableau table tbody tr:nth-child(1) td:nth-child(4){
+        color: black;
+    }
+
+    #tableau table tbody tr:nth-child(11),
+    #tableau table tbody tr:nth-child(12),
+    #tableau table tbody tr:nth-child(13),
+    #tableau table tbody tr:nth-child(14),
+    #tableau table tbody tr:nth-child(15),
+    #tableau table tbody tr:nth-child(16),
+    #tableau table tbody tr:nth-child(17),
+    #tableau table tbody tr:nth-child(18),
+    #tableau table tbody tr:nth-child(19),
+    #tableau table tbody tr:nth-child(20),
+    #tableau table tbody tr:nth-child(21),
+    #tableau table tbody tr:nth-child(22),
+    #tableau table tbody tr:nth-child(23),
+    #tableau table tbody tr:nth-child(24),
+    #tableau table tbody tr:nth-child(25),
+    #tableau table tbody tr:nth-child(26){
+        display: none;
+    }
+    
+    #tableau h2{
+        text-align: center;
+        color: black;
+    }
+
+    /* Header */
+    header{
+        background-color: #F2EFDF;
+        height: 12em;
+        width: 100%;
+    }
+    
+    header div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 2em;
+    }
+    
+    header div section{
+        display: flex;
+        flex-direction: row;
+        height: 2em;
+    }
+
+    #boutons_gauche a, #boutons_droite a{
+        width: 4.7em;
+    }
+
+    #images_container{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        padding-top: 2em;
+    }
+    
+    #images_container img{
+        width: auto;
+        height: 60px;
+    }
+    
+    a{
+        background-color: #273D59;
+        border-radius: 30px;
+        color: #F2EFDF;
+        width: 25%;
+        height: 40%; 
+        padding: 1em;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 15px;
+        gap:5px;
+    }
+    
+    a img{
+        width: auto;
+        height: 25px;
+        margin-right: 10px; 
+    }
+
+    .med{
+        display: none;
+    }
+
+    #sites{
+        display: none;
+    }
+    
+    /* Footer */
+    footer{
+        background-color: #F2EFDF;
+        width: 100%; 
+        height: 5em;
+        box-sizing: border-box; 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer a{
+        display: flex;
+        background-color: #273D59;
+        justify-content: center;
+        align-items: center; 
+        color: #D9D9D9;
+        margin: 5px;
+        width: 20%;
+        height: 20%;
+        font-size: 1em; 
+        border-radius: 20px; 
+        text-align: center;
+    }
+
+    #logo_jo{
+        width: 65px;
+        height: 72px;
+    }
+
+}
