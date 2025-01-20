@@ -1,37 +1,43 @@
 
-/* Header */
+/**
+HEADER TAILLE PC
+**/
 header{
     background-color: #F2EFDF;
-    height: 16em;
 }
+
 header div{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 10em;
-
+    width: 98%;
+    height: 5em;
 }
+
 header div section{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 10em;
 }
+
 #boutons_droite{
     display: flex;
     justify-content: flex-end;
 }
+
 #images_container{
     display: flex; 
     justify-content: center; 
     align-items: center; 
     padding-top: 2em;
 }
+
 #images_container img{
     width: auto;
-    height: 14em;
+    height: 80%;
 }
-a {
+
+a{
     background-color: #273D59;
     border-radius: 30px;
     color: #F2EFDF;
@@ -44,11 +50,12 @@ a {
     margin: 15px;
 }
 
-a img {
+a img{
     width: auto;
     height: 25px;
     margin-right: 10px; 
 }
+
 
 
 /* Page sportif Titouan*/
@@ -224,18 +231,15 @@ body{
 
 
 
-    
-
-
 /* Footer */
-footer {
+footer{
     background-color: #F2EFDF;
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
-footer a {
+
+footer a{
     display: flex;
     background-color: #273D59;
     border-radius: 20px;
@@ -246,6 +250,7 @@ footer a {
     color: #D9D9D9;
     margin: 5px;
 }
+
 footer img{
     width: 65px;
     height: 72px;
@@ -259,50 +264,47 @@ footer img{
         align-items: center;
         flex-direction: column;}
     
+    /* Header */
     header{
         background-color: #F2EFDF;
-        height: 130px;
-        width: 480px;
+        height: 12em;
+        width: 100%;
     }
-    
+
     header div{
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 3em;
+        height: 2em;
     }
-    
+
     header div section{
         display: flex;
         flex-direction: row;
-        width: 100%;
-        height:2em;
+        height: 2em;
     }
-    #boutons_gauche{
-        width: 33%;
-        padding:5px;
+
+    #boutons_gauche a, #boutons_droite a{
+        width: 4.7em;
     }
-    #boutons_droite{
-        width: 66%;
-        justify-content: space-between;
-    }
+
     #images_container{
         display: flex; 
         justify-content: center; 
         align-items: center; 
         padding-top: 2em;
     }
-    
+
     #images_container img{
         width: auto;
         height: 60px;
     }
-    
-    a {
+
+    a{
         background-color: #273D59;
         border-radius: 30px;
         color: #F2EFDF;
-        width: 105px;
+        width: 25%;
         height: 40%; 
         padding: 1em;
         display: flex; 
@@ -311,16 +313,21 @@ footer img{
         margin: 15px;
         gap:5px;
     }
-    
-    a img {
+
+    a img{
         width: auto;
         height: 25px;
         margin-right: 10px; 
     }
-    .med{display: none;}
-    #sites{display: none;}
-    
-    
+
+    .med{
+        display: none;
+    }
+
+    #sites{
+        display: none;
+    }
+    /* Fin du header*/
     
     /*Corps de la page*/
 
@@ -473,10 +480,10 @@ footer img{
 
 
 
-    /*Footer de la page*/
+    /* Footer */
     footer{
         background-color: #F2EFDF;
-        width: 480px; 
+        width: 100%; 
         height: 5em;
         box-sizing: border-box; 
         display: flex;
@@ -494,10 +501,12 @@ footer img{
         height: 20%;
         font-size: 1em; 
         border-radius: 20px; 
+        text-align: center;
     }
 
     #logo_jo{
         width: 65px;
         height: 72px;
     }
+    /*Footer*/
 }
