@@ -240,6 +240,11 @@ table img {
         font-size: medium; /* Adjust font size for better readability */
         height: auto; /* Adjust height for smaller screens */
     }
+    #tabchiffres article {
+        align-content: center;
+        align-items: center;
+        margin-left: 130px;
+    }
 
     table img {
         width: 30px; /* Adjust image size for smaller screens */
@@ -275,10 +280,13 @@ table img {
     }
     #cat div {
         flex-direction: column;
-        width: 600px; 
+        width: 540px; 
+    }
+    #cat div div{
+        border-radius: 0px;
     }
     #cat div div img {
-        width: 580px; /* Adjust image size */
+        width: 520px; /* Adjust image size */
     }
     #sponsors img {
         width: 80px; /* Adjust image size */
